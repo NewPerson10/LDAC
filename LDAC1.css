@@ -140,17 +140,16 @@
     padding-top: 3vh;
 }
 .banner-text h1{
-    padding-top: 7vh;
+    padding-top: 5vh;
     font-size: 250%;
     color: #ffffff92;
 }
 
 
 .banner-btn {
-    padding-top: 55vh;
+    padding-top: 45vh;
     padding-left: 95%;
     width: 350px;
-    height: 10vh;
 }
 .banner-btn a{
     width: 300px;
@@ -191,7 +190,7 @@
 .banner-box{
     width:900px;
     height: 65vh;
-    padding-top: 70vh;
+    padding-top: 65vh;
     padding-left: 10%;
     display: inline-block;
     position: absolute;
@@ -385,7 +384,7 @@ nav ul li a{
     display: inline-block;
     border-radius: 10px;
     left: 150px;
-    padding-top: 7%;
+    padding-top: 5%;
 }
 .line2{
     width: 370px;
@@ -729,6 +728,7 @@ border-radius: 10px;
     font-weight: lighter;
     position:absolute;
     font-size: 82%;
+    padding-top: 1vh;
 
 }
 
@@ -736,8 +736,9 @@ border-radius: 10px;
 
 #event{
     width: 1350px;
-    height: 70vh;
+    height: 80vh;
     position: absolute;
+    padding-top: 9vh;
 }
 
 .Events-box{
@@ -1067,6 +1068,7 @@ border-radius: 10px;
     position: absolute;
     width: 1350px;
     height: 0vh;
+    padding-top: 10vh;
 }
 .cdc{
     width: 1000px;
