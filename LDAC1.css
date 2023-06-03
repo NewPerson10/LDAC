@@ -203,7 +203,7 @@
     overflow-x: auto;
     white-space: nowrap;
     position: absolute;
-    padding-top: 9vh;
+    padding-top: 8.2vh;
 }
 
 .horizontal-scroll::-webkit-scrollbar{
