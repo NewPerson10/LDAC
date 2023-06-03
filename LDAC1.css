@@ -140,7 +140,7 @@
     padding-top: 3vh;
 }
 .banner-text h1{
-    padding-top: 3vh;
+    padding-top: 6vh;
     font-size: 250%;
     color: #ffffff92;
 }
@@ -197,20 +197,21 @@
 }
 
 .horizontal-scroll{
-    width:650px;
-    height: 70vh;
+    width:600px;
+    height: 40vh;
     padding: 1%;
     overflow-x: auto;
     white-space: nowrap;
     position: absolute;
+    padding-top: 15vh;
 }
 
 .horizontal-scroll::-webkit-scrollbar{
   display: none; /* For Chrome, Safari, and Opera */
 }
 .horizontal-scroll img{
-    width:650px;
-    height: 55vh;
+    width:600px;
+    height: 40vh;
     padding: 1%;
     border-radius: 100px;
     display: inline-block;
@@ -472,14 +473,15 @@ nav ul li a{
 }
 .feature-btn{
     position: absolute;
-    padding-left: 900px;
+    padding-left: 850px;
     padding-top: 60vh;
 }
 
 .feature-btn a{
-    width: 100px;
+    width: 200px;
+    height: 4vh;
     text-decoration: none ;
-    font-size: smaller;
+    font-size: 30px;
     display: inline-block;
     margin: 0 10px;
     padding: 12px 0;
@@ -541,13 +543,14 @@ nav ul li a{
 }
 .feature-btn1{
     position: absolute;
-    padding-left: 900px;
+    padding-left: 850px;
     padding-top: 60vh;
 }
 .feature-btn1 a{
-    width: 100px;
+    width: 200px;
+    height: 4vh;
     text-decoration: none ;
-    font-size: smaller;
+    font-size: 30px;
     display: inline-block;
     margin: 0 10px;
     padding: 12px 0;
@@ -566,14 +569,15 @@ nav ul li a{
   }
 .feature-btn2{
     position: absolute;
-    padding-left: 900px;
+    padding-left: 850px;
     padding-top: 60vh;
 }
 
 .feature-btn2 a{
-    width: 100px;
+    width: 200px;
+    height: 4vh;
     text-decoration: none ;
-    font-size: smaller;
+    font-size: 30px;
     display: inline-block;
     margin: 0 10px;
     padding: 12px 0;
@@ -592,14 +596,15 @@ nav ul li a{
   }
 .feature-btn3{
     position: absolute;
-    padding-left: 900px;
+    padding-left: 850px;
     padding-top: 60vh;
 }
 
 .feature-btn3 a{
-    width: 100px;
+    width: 200px;
+    height: 4vh;
     text-decoration: none ;
-    font-size: smaller;
+    font-size: 30px;
     display: inline-block;
     margin: 0 10px;
     padding: 12px 0;
@@ -736,78 +741,80 @@ border-radius: 10px;
 
 #event{
     width: 1350px;
-    height: 80vh;
+    height: 100vh;
     position: absolute;
     padding-top: 9vh;
 }
 
 .Events-box{
-        width: 900px;
-        height: 60vh;
+        width: 1250px;
+        height: 100vh;
         left: 3%;
         position: absolute;
         border-radius: 10px;
-        background-color: #cecece21;
+        background-color: #cecece00;
 }
-.Events-horizontal-scroll{
-    display: inline-block;
-    width: 800px;
-    height: 45vh;
+.Events-scroll{
+    width: 1270px;
+    height: 90vh;
     position: absolute;
     overflow-x: auto;
     white-space: nowrap;
+    padding-top: 15vh;
 }
-.Events-horizontal-scroll img{
+.Events-scroll img{
     position: relative;
-    width: 800px;
-    height: 45vh;
-    display: inline-block;
+    width: 970px;
+    height: 80vh;
     border-radius: 60px;
+    margin-right: 300px;
 }
 
 .upEvents p{
-    left: 100px;
+    left: 40px;
     position: absolute;
-    font-size: 300%;
+    font-size: 400%;
     padding-top: 3vh;
     z-index: 2;
-    width: 500px;
+    width: 700px;
 }
 
 .Events-textbox{
-    width: 300px;
-    height: 60vh;
-    left: 73%;
+    width: 1200px;
+    height: 30vh;
+    left: 4%;
     position: absolute;
-    border-radius: 10px;
+    border-radius: 30px;
     border: 1px solid black;
     border-color: #5488e9;
+    top: 110vh;
 }
 .Events-textbox b{
     font-size: 30px;
     padding-left: 70px;
-    top: 20px;
+    top: 40px;
     position: absolute;
 }
 .Events-textbox p{
-    padding-left: 20px;
-    padding-top: 20px;
+    padding-left: 300px;
+    padding-top: 120px;
     padding-right: 20px;
     text-align: left;
+    font-size: 150%;
+    position: absolute;
 }
 .Events-textbox img{
     width: 250px;
     height: 10vh;
-    padding-top: 80px;
+    padding-top: 110px;
     padding-left: 25px;
     padding-right: 25px;
-    border-radius: 10px;
     display: inline-block;
 }
 .swipe{
     position: absolute;
-    top: 14%;
-    left: 65%;
+    top: 10%;
+    left: 50%;
     transform: translate(-50%, -50%);
     padding: 8px 20px;
     color: black;
@@ -817,13 +824,13 @@ border-radius: 10px;
 }
 .Jerk {
     position: absolute;
-    top: 10%;
-    left: 165px;
+    top: 30%;
+    left: 400px;
     transform: translate(-50%, -50%);
     padding: 10px 30px;
     color: black;
     font-weight: bolder;
-    font-size: 12px;
+    font-size: 30px;
     opacity: 0;
     transition: opacity 1s ease;
     border-radius: 20px;
@@ -831,19 +838,21 @@ border-radius: 10px;
     border-color: 1px solid black;
     border-color: #4ea0e468;
   }
-  .Events-horizontal-scroll:hover .Jerk {
+  .Events-scroll:hover .Jerk {
     opacity: 1;
     background-color: #025dcd00;
   }
 .overlay-button {
     position: absolute;
-    top: 90%;
-    left: 50%;
+    width: 200px;
+    height: 7vh;
+    top: 80%;
+    left: 60%;
     transform: translate(-50%, -50%);
     padding: 10px 20px;
     background-color: #5488e9dc;
     color: #fff;
-    font-size: 16px;
+    font-size: 30px;
     border: none;
     cursor: pointer;
     opacity: 0;
@@ -851,38 +860,40 @@ border-radius: 10px;
     border-radius: 10px;
   }
   
-  .Events-horizontal-scroll:hover .overlay-button {
+  .Events-scroll:hover .overlay-button {
     opacity: 1;
   }
   .overlay-button1 {
     position: absolute;
-    top: 90%;
-    left: 1350px;
+    top: 80%;
+    width: 200px;
+    height: 7vh;
+    left: 160%;
     transform: translate(-50%, -50%);
     padding: 10px 20px;
     background-color: #5488e9dc;
     color: #fff;
-    font-size: 16px;
+    font-size: 30px;
     border: none;
     cursor: pointer;
-    opacity: 0.05;
+    opacity: 0;
     transition: opacity 0.2s ease;
     border-radius: 10px;
   }
   
-  .Events-horizontal-scroll:hover .overlay-button1 {
+  .Events-scroll:hover .overlay-button1 {
     opacity: 1;
   }
 
   .Jerk1 {
     position: absolute;
-    top: 10%;
-    left: 1080px;
+    top: 30%;
+    left: 1800px;
     transform: translate(-50%, -50%);
     padding: 10px 30px;
     color: black;
     font-weight: bolder;
-    font-size: 12px;
+    font-size: 30px;
     opacity: 0;
     transition: opacity 1s ease;
     border-radius: 20px;
@@ -891,38 +902,40 @@ border-radius: 10px;
     border-color: #4ea0e468;
   }
   
-  .Events-horizontal-scroll:hover .Jerk1 {
+  .Events-scroll:hover .Jerk1 {
     opacity: 1;
     background-color: #025dcd00;
   }
   .overlay-button2 {
     position: absolute;
-    top: 90%;
-    left: 2250px;
+    width: 200px;
+    height: 7vh;
+    top: 80%;
+    left: 260%;
     transform: translate(-50%, -50%);
     padding: 10px 20px;
     background-color: #5488e9dc;
     color: #fff;
-    font-size: 16px;
+    font-size: 30px;
     border: none;
     cursor: pointer;
-    opacity: 0.05;
+    opacity: 0;
     transition: opacity 0.2s ease;
     border-radius: 10px;
   }
   
-  .Events-horizontal-scroll:hover .overlay-button2 {
+  .Events-scroll:hover .overlay-button2 {
     opacity: 1;
   }
   .Jerk2 {
     position: absolute;
-    top: 10%;
-    left: 1950px;
+    top: 30%;
+    left: 3000px;
     transform: translate(-50%, -50%);
     padding: 10px 30px;
     color: black;
     font-weight: bolder;
-    font-size: 12px;
+    font-size: 30px;
     opacity: 0;
     transition: opacity 1s ease;
     border-radius: 20px;
@@ -931,7 +944,7 @@ border-radius: 10px;
     border-color: #4ea0e468;
   }
   
-  .Events-horizontal-scroll:hover .Jerk2 {
+  .Events-scroll:hover .Jerk2 {
     opacity: 1;
     background-color: #025dcd00;
   }
@@ -959,12 +972,12 @@ border-radius: 10px;
   }
 
 .Escroll-box{
-    width: 300px;
-    height: 410px;
-    top:2%;
-    left: 64%;
+    width: 200px;
+    height: 78vh;
+    top:15%;
+    left: 80%;
     position: absolute;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #4ea0e400;
     border: 1px solid black;
     border-color: #5488e988;
@@ -983,18 +996,19 @@ border-radius: 10px;
     opacity: 0;
     transition: opacity 1s ease;
     padding-left: 10px;
+    padding-right: 10px;
     white-space: normal;
 } 
-.Events-horizontal-scroll:hover .Escroll-box p{
+.Events-scroll:hover .Escroll-box p{
     opacity: 1;
   }
 .Escroll-box1{
-    width: 300px;
-    height: 410px;
-    left: 164%;
-    top: 2%;
+    width: 200px;
+    height: 78vh;
+    top:15%;
+    left: 180%;
     position: absolute;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #4ea0e400;
     border: 1px solid black;
     border-color: #5488e988;
@@ -1013,18 +1027,19 @@ border-radius: 10px;
     opacity: 0;
     transition: opacity 1s ease;
     padding-left: 10px;
+    padding-right: 10px;
     white-space: normal;
 }
-.Events-horizontal-scroll:hover .Escroll-box1 p{
+.Events-scroll:hover .Escroll-box1 p{
     opacity: 1;
   }
 .Escroll-box2{
-     width: 300px;
-    height: 410px;
-    top:2%;
-    left: 264%;
+    width: 200px;
+    height: 78vh;
+    top:15%;
+    left: 280%;
     position: absolute;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #4ea0e400;
     border: 1px solid black;
     border-color: #5488e988;
@@ -1043,9 +1058,10 @@ border-radius: 10px;
     opacity: 0;
     transition: opacity 1s ease;
     padding-left: 10px;
+    padding-right: 10px;
     white-space: normal;
 }
-.Events-horizontal-scroll:hover .Escroll-box2 p{
+.Events-scroll:hover .Escroll-box2 p{
     opacity: 1;
   }
 .oval p{
@@ -1067,14 +1083,15 @@ border-radius: 10px;
 #CDCs{
     position: absolute;
     width: 1350px;
-    height: 0vh;
-    padding-top: 10vh;
+    height: 100vh;
+    padding-top: 140vh;
+    z-index: -1;
 }
 .cdc{
     width: 1000px;
     height: 55px;
     left: 180px;
-    top: 75vh;
+    top: 10vh;
     padding-top: 2vh;
     position: relative;
     text-align: center;
@@ -1084,17 +1101,17 @@ border-radius: 10px;
     border-color: #5488e988;
 }
 .cdc1{
-    width: 400px;
+    width: 600px;
     height: 300px;
     background-color: #5488e91a;
     left: 2%;
-    top: 104vh;
+    top: 170vh;
     position: absolute;
     border-radius: 20px;
 }
 .cdc1sqr p{
-    width: 360px;
-    height: 130px;
+    width: 550px;
+    height: 13vh;
     left: 2%;
     top: 200px;
     position: absolute;
@@ -1111,7 +1128,7 @@ border-radius: 10px;
     width: 200px;
     height: 20px;
     left: 2%;
-    top: 310px;
+    top: 315px;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1123,9 +1140,9 @@ border-radius: 10px;
 }
 .cdc1sqr3 p{
     width: 80px;
-    height: 30px;
+    height: 25px;
     left: 70%;
-    top: 310px;
+    top: 315px;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1139,19 +1156,19 @@ border-radius: 10px;
     text-align: center;
 }
 .cdc11{
-    width: 412px;
-    height: 370px;
+    width: 612px;
+    height: 400px;
     left: 1.5%;
-    top: 103vh;
+    top: 168vh;
     position: absolute;
     border-radius: 20px;
     border: 1px solid black;
     border-color: #5488e988;
 }
 .cdc1 img{
-    width: 200px;
+    width: 300px;
     height: 150px;
-    left: 23%;
+    left: 25%;
     top: 25px;
     position: absolute;
     border-radius: 10px;
@@ -1159,18 +1176,18 @@ border-radius: 10px;
 }
 
 .cdc2{
-    width: 400px;
+    width: 600px;
     height: 300px;
     background-color: #5488e91a;
-    left: 455px;
-    top: 8px;
+    left: 705px;
+    top: 2vh;
     position: absolute;
     border-radius: 20px;
 }
 .cdc2sqr p{
-    width: 360px;
-    height: 130px;
-    left: 2%;
+    width: 550px;
+    height: 13vh;
+    left: 2.75%;
     top: 200px;
     position: absolute;
     border-radius: 20px;
@@ -1214,9 +1231,9 @@ border-radius: 10px;
     text-align: center;
 }
 .cdc22{
-    width: 412px;
-    height: 370px;
-    left: 448px;
+    width: 612px;
+    height: 400px;
+    left: 700px;
     top: 0px;
     position: absolute;
     border-radius: 20px;
@@ -1224,43 +1241,48 @@ border-radius: 10px;
     border-color: #5488e988;
 }
 .cdc2 img{
-    width: 200px;
+    width: 300px;
     height: 150px;
-    left: 23%;
+    left: 25%;
     top: 25px;
     position: absolute;
     border-radius: 10px;
     opacity: 1;
 }
+
+
+
+
+
 .cdc3{
-    width: 400px;
+    width: 600px;
     height: 300px;
     background-color: #5488e91a;
-    left: 457px;
-    top: 8px;
+    left: -112.75%;
+    top: 50vh;
     position: absolute;
     border-radius: 20px;
 }
 .cdc3sqr p{
-    width: 360px;
-    height: 130px;
+    width: 550px;
+    height: 13vh;
     left: 2%;
     top: 200px;
     position: absolute;
     border-radius: 20px;
     border: 1px solid black;
+    border-color: #5488e988;
     padding-left: 10px;
     text-align: left;
     padding-top: 20px;
     font-size: 80%;
     padding-right: 10px;
-    border-color: #5488e988;
 }
 .cdc3sqr2 p{
     width: 200px;
     height: 20px;
     left: 2%;
-    top: 310px;
+    top: 315px;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1272,9 +1294,9 @@ border-radius: 10px;
 }
 .cdc3sqr3 p{
     width: 80px;
-    height: 30px;
+    height: 25px;
     left: 70%;
-    top: 310px;
+    top: 315px;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1288,37 +1310,38 @@ border-radius: 10px;
     text-align: center;
 }
 .cdc33{
-    width: 412px;
-    height: 370px;
-    left: 450px;
-    top: 0px;
+    width: 612px;
+    height: 400px;
+    left: -114%;
+    top: 49vh;
     position: absolute;
     border-radius: 20px;
     border: 1px solid black;
     border-color: #5488e988;
 }
 .cdc3 img{
-    width: 200px;
+    width: 300px;
     height: 150px;
-    left: 23%;
+    left: 25%;
     top: 25px;
     position: absolute;
     border-radius: 10px;
     opacity: 1;
 }
+
 .cdc4{
-    width: 400px;
+    width: 600px;
     height: 300px;
     background-color: #5488e91a;
-    right: 907px;
-    top: 403px;
+    left: 705px;
+    top: 2vh;
     position: absolute;
     border-radius: 20px;
 }
 .cdc4sqr p{
-    width: 360px;
-    height: 130px;
-    left: 2%;
+    width: 550px;
+    height: 13vh;
+    left: 2.75%;
     top: 200px;
     position: absolute;
     border-radius: 20px;
@@ -1326,8 +1349,8 @@ border-radius: 10px;
     padding-left: 10px;
     text-align: left;
     padding-top: 20px;
-    padding-right: 10px;
     font-size: 80%;
+    padding-right: 10px;
     border-color: #5488e988;
 }
 .cdc4sqr2 p{
@@ -1344,7 +1367,7 @@ border-radius: 10px;
     font-weight: bolder;
     font-size: 20px;
 }
-.cdc4sqr3 p{
+.cdc4sqr3 {
     width: 80px;
     height: 30px;
     left: 70%;
@@ -1362,53 +1385,60 @@ border-radius: 10px;
     text-align: center;
 }
 .cdc44{
-    width: 412px;
-    height: 370px;
-    right: 900px;
-    top: 395px;
+    width: 612px;
+    height: 400px;
+    left: 700px;
+    top: 0px;
     position: absolute;
     border-radius: 20px;
     border: 1px solid black;
     border-color: #5488e988;
 }
 .cdc4 img{
-    width: 200px;
+    width: 300px;
     height: 150px;
-    left: 23%;
+    left: 25%;
     top: 25px;
     position: absolute;
     border-radius: 10px;
     opacity: 1;
 }
+
+
+
+
+
+
+
 .cdc5{
-    width: 400px;
+    width: 600px;
     height: 300px;
     background-color: #5488e91a;
-    left: 460px;
-    top: 8px;
+    left: -112.75%;
+    top: 50vh;
     position: absolute;
     border-radius: 20px;
 }
 .cdc5sqr p{
-    width: 360px;
-    height: 130px;
+    width: 550px;
+    height: 13vh;
     left: 2%;
     top: 200px;
     position: absolute;
     border-radius: 20px;
     border: 1px solid black;
+    border-color: #5488e988;
     padding-left: 10px;
     text-align: left;
     padding-top: 20px;
     font-size: 80%;
     padding-right: 10px;
-    border-color: #5488e988;
 }
 .cdc5sqr2 p{
     width: 200px;
     height: 20px;
     left: 2%;
-    top: 310px;
+    top: 315px;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1420,9 +1450,9 @@ border-radius: 10px;
 }
 .cdc5sqr3 p{
     width: 80px;
-    height: 30px;
+    height: 25px;
     left: 70%;
-    top: 310px;
+    top: 315px;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1436,46 +1466,47 @@ border-radius: 10px;
     text-align: center;
 }
 .cdc55{
-    width: 412px;
-    height: 370px;
-    left: 452px;
-    top: 0px;
+    width: 612px;
+    height: 400px;
+    left: -114%;
+    top: 49vh;
     position: absolute;
     border-radius: 20px;
     border: 1px solid black;
     border-color: #5488e988;
 }
 .cdc5 img{
-    width: 200px;
+    width: 300px;
     height: 150px;
-    left: 23%;
+    left: 25%;
     top: 25px;
     position: absolute;
     border-radius: 10px;
     opacity: 1;
 }
+
 .cdc6{
-    width: 400px;
+    width: 600px;
     height: 300px;
     background-color: #5488e91a;
-    left: 460px;
-    top: 8px;
+    left: 705px;
+    top: 2vh;
     position: absolute;
     border-radius: 20px;
 }
 .cdc6sqr p{
-    width: 360px;
-    height: 130px;
-    left: 2%;
+    width: 550px;
+    height: 13vh;
+    left: 2.75%;
     top: 200px;
     position: absolute;
     border-radius: 20px;
     border: 1px solid black;
     padding-left: 10px;
-    padding-right: 10px;
     text-align: left;
     padding-top: 20px;
     font-size: 80%;
+    padding-right: 10px;
     border-color: #5488e988;
 }
 .cdc6sqr2 p{
@@ -1492,7 +1523,7 @@ border-radius: 10px;
     font-weight: bolder;
     font-size: 20px;
 }
-.cdc6sqr3 p{
+.cdc6sqr3 {
     width: 80px;
     height: 30px;
     left: 70%;
@@ -1510,9 +1541,9 @@ border-radius: 10px;
     text-align: center;
 }
 .cdc66{
-    width: 412px;
-    height: 370px;
-    left: 452px;
+    width: 612px;
+    height: 400px;
+    left: 700px;
     top: 0px;
     position: absolute;
     border-radius: 20px;
@@ -1520,9 +1551,9 @@ border-radius: 10px;
     border-color: #5488e988;
 }
 .cdc6 img{
-    width: 200px;
+    width: 300px;
     height: 150px;
-    left: 23%;
+    left: 25%;
     top: 25px;
     position: absolute;
     border-radius: 10px;
