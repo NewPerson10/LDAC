@@ -129,13 +129,13 @@
 .banner-text{
     display: inline-block;
     position: absolute;
-    top: 15vh;
+    top: 20vh;
     left: 5%;
-    width: 900px;
+    width: 800px;
     height: 105vh;
 }
 .banner-text h4{
-    font-size: 500%;
+    font-size: 450%;
     color: #ffffff;
     padding-top: 3vh;
 }
@@ -203,7 +203,7 @@
     overflow-x: auto;
     white-space: nowrap;
     position: absolute;
-    padding-top: 10vh;
+    padding-top: 8vh;
 }
 
 .horizontal-scroll::-webkit-scrollbar{
@@ -751,8 +751,8 @@ border-radius: 10px;
         height: 100vh;
         left: 3%;
         position: absolute;
-        border-radius: 10px;
-        background-color: #cecece00;
+        border-radius: 30px;
+        background-color: #4ea0e409;
 }
 .Events-scroll{
     width: 1270px;
@@ -819,12 +819,12 @@ border-radius: 10px;
 }
 .swipe{
     position: absolute;
-    top: 10%;
+    top: 12%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 8px 20px;
     color: black;
-    font-size: 15px;
+    font-size: 20px;
     border-radius: 20px; 
     background-color: #4ea0e41d; 
 }
@@ -1112,7 +1112,7 @@ border-radius: 10px;
     width: 300px;
     height: 20px;
     left: 28%;
-    top: 35.5vh;
+    top: 35vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1120,7 +1120,7 @@ border-radius: 10px;
     font-size: 80%;
     padding-right: 10px;
     font-weight: bolder;
-    font-size: 35px;
+    font-size: 30px;
 }
 .cdc1sqr3 p{
     width: 80px;
@@ -1188,7 +1188,7 @@ border-radius: 10px;
     width: 300px;
     height: 20px;
     left: 28%;
-    top: 35.5vh;
+    top: 35vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1196,7 +1196,7 @@ border-radius: 10px;
     font-size: 80%;
     padding-right: 10px;
     font-weight: bolder;
-    font-size: 35px;
+    font-size: 30px;
 }
 .cdc2sqr3 {
     width: 80px;
@@ -1268,7 +1268,7 @@ border-radius: 10px;
     width: 300px;
     height: 20px;
     left: 28%;
-    top: 36.5vh;
+    top: 36vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1276,7 +1276,7 @@ border-radius: 10px;
     font-size: 80%;
     padding-right: 10px;
     font-weight: bolder;
-    font-size: 35px;
+    font-size: 30px;
 }
 .cdc3sqr3 p{
     width: 80px;
@@ -1344,7 +1344,7 @@ border-radius: 10px;
     width: 300px;
     height: 20px;
     left: 28%;
-    top: 35.5vh;
+    top: 35vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1352,7 +1352,7 @@ border-radius: 10px;
     font-size: 80%;
     padding-right: 10px;
     font-weight: bolder;
-    font-size: 35px;
+    font-size: 30px;
 }
 .cdc4sqr3 {
     width: 80px;
@@ -1426,7 +1426,7 @@ border-radius: 10px;
     width: 300px;
     height: 20px;
     left: 28%;
-    top: 35.5vh;
+    top: 35vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1434,7 +1434,7 @@ border-radius: 10px;
     font-size: 80%;
     padding-right: 10px;
     font-weight: bolder;
-    font-size: 35px;
+    font-size: 30px;
 }
 .cdc5sqr3 p{
     width: 80px;
@@ -1485,7 +1485,7 @@ border-radius: 10px;
 }
 .cdc6sqr p{
     width: 550px;
-    height: 18vh;
+    height: 17vh;
     left: 2.75%;
     top: 23.5vh;
     position: absolute;
@@ -1502,7 +1502,7 @@ border-radius: 10px;
     width: 300px;
     height: 20px;
     left: 28%;
-    top: 35vh;
+    top: 34.5vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1510,7 +1510,7 @@ border-radius: 10px;
     font-size: 80%;
     padding-right: 10px;
     font-weight: bolder;
-    font-size: 35px;
+    font-size: 30px;
 }
 .cdc6sqr3 {
     width: 80px;
