@@ -753,6 +753,7 @@ border-radius: 10px;
         position: absolute;
         border-radius: 30px;
         background-color: #4ea0e409;
+        padding-left: 50px;
 }
 .Events-scroll{
     width: 1270px;
@@ -774,7 +775,7 @@ border-radius: 10px;
 }
 
 .upEvents p{
-    left: 40px;
+    left: 70px;
     position: absolute;
     font-size: 400%;
     padding-top: 3vh;
