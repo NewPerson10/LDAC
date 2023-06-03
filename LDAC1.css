@@ -198,12 +198,12 @@
 
 .horizontal-scroll{
     width:600px;
-    height: 40vh;
+    height: 50vh;
     padding: 1%;
     overflow-x: auto;
     white-space: nowrap;
     position: absolute;
-    padding-top: 15vh;
+    padding-top: 10vh;
 }
 
 .horizontal-scroll::-webkit-scrollbar{
@@ -211,7 +211,7 @@
 }
 .horizontal-scroll img{
     width:600px;
-    height: 40vh;
+    height: 50vh;
     padding: 1%;
     border-radius: 100px;
     display: inline-block;
@@ -762,6 +762,9 @@ border-radius: 10px;
     white-space: nowrap;
     padding-top: 15vh;
 }
+.Events-scroll::-webkit-scrollbar{
+    display: none; 
+  }
 .Events-scroll img{
     position: relative;
     width: 970px;
@@ -782,7 +785,7 @@ border-radius: 10px;
 .Events-textbox{
     width: 1200px;
     height: 30vh;
-    left: 4%;
+    left: 5%;
     position: absolute;
     border-radius: 30px;
     border: 1px solid black;
@@ -797,7 +800,7 @@ border-radius: 10px;
 }
 .Events-textbox p{
     padding-left: 300px;
-    padding-top: 120px;
+    top: 100px;
     padding-right: 20px;
     text-align: left;
     font-size: 150%;
@@ -1084,14 +1087,14 @@ border-radius: 10px;
     position: absolute;
     width: 1350px;
     height: 100vh;
-    padding-top: 140vh;
+    padding-top: 180vh;
     z-index: -1;
 }
 .cdc{
     width: 1000px;
     height: 55px;
     left: 180px;
-    top: 10vh;
+    top: 0vh;
     padding-top: 2vh;
     position: relative;
     text-align: center;
@@ -1102,10 +1105,10 @@ border-radius: 10px;
 }
 .cdc1{
     width: 600px;
-    height: 300px;
+    height: 34vh;
     background-color: #5488e91a;
     left: 2%;
-    top: 170vh;
+    top: 200vh;
     position: absolute;
     border-radius: 20px;
 }
@@ -1113,7 +1116,7 @@ border-radius: 10px;
     width: 550px;
     height: 13vh;
     left: 2%;
-    top: 200px;
+    top: 23.5vh;
     position: absolute;
     border-radius: 20px;
     border: 1px solid black;
@@ -1128,7 +1131,7 @@ border-radius: 10px;
     width: 200px;
     height: 20px;
     left: 2%;
-    top: 315px;
+    top: 35vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1142,7 +1145,7 @@ border-radius: 10px;
     width: 80px;
     height: 25px;
     left: 70%;
-    top: 315px;
+    top: 35vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1157,9 +1160,9 @@ border-radius: 10px;
 }
 .cdc11{
     width: 612px;
-    height: 400px;
+    height: 42vh;
     left: 1.5%;
-    top: 168vh;
+    top: 198vh;
     position: absolute;
     border-radius: 20px;
     border: 1px solid black;
@@ -1167,7 +1170,7 @@ border-radius: 10px;
 }
 .cdc1 img{
     width: 300px;
-    height: 150px;
+    height: 18vh;
     left: 25%;
     top: 25px;
     position: absolute;
@@ -1177,7 +1180,7 @@ border-radius: 10px;
 
 .cdc2{
     width: 600px;
-    height: 300px;
+    height: 34vh;
     background-color: #5488e91a;
     left: 705px;
     top: 2vh;
@@ -1187,8 +1190,7 @@ border-radius: 10px;
 .cdc2sqr p{
     width: 550px;
     height: 13vh;
-    left: 2.75%;
-    top: 200px;
+    top: 23.5vh;
     position: absolute;
     border-radius: 20px;
     border: 1px solid black;
@@ -1203,7 +1205,7 @@ border-radius: 10px;
     width: 200px;
     height: 20px;
     left: 2%;
-    top: 310px;
+    top: 35vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1217,7 +1219,7 @@ border-radius: 10px;
     width: 80px;
     height: 30px;
     left: 70%;
-    top: 310px;
+    top: 34.5vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1232,7 +1234,7 @@ border-radius: 10px;
 }
 .cdc22{
     width: 612px;
-    height: 400px;
+    height: 42vh;
     left: 700px;
     top: 0px;
     position: absolute;
@@ -1242,7 +1244,7 @@ border-radius: 10px;
 }
 .cdc2 img{
     width: 300px;
-    height: 150px;
+    height: 18vh;
     left: 25%;
     top: 25px;
     position: absolute;
@@ -1256,7 +1258,7 @@ border-radius: 10px;
 
 .cdc3{
     width: 600px;
-    height: 300px;
+    height: 34vh;
     background-color: #5488e91a;
     left: -112.75%;
     top: 50vh;
@@ -1266,8 +1268,7 @@ border-radius: 10px;
 .cdc3sqr p{
     width: 550px;
     height: 13vh;
-    left: 2%;
-    top: 200px;
+    top: 23.5vh;
     position: absolute;
     border-radius: 20px;
     border: 1px solid black;
@@ -1282,7 +1283,7 @@ border-radius: 10px;
     width: 200px;
     height: 20px;
     left: 2%;
-    top: 315px;
+    top: 35vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1296,7 +1297,7 @@ border-radius: 10px;
     width: 80px;
     height: 25px;
     left: 70%;
-    top: 315px;
+    top: 35vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1311,7 +1312,7 @@ border-radius: 10px;
 }
 .cdc33{
     width: 612px;
-    height: 400px;
+    height: 42vh;
     left: -114%;
     top: 49vh;
     position: absolute;
@@ -1321,7 +1322,7 @@ border-radius: 10px;
 }
 .cdc3 img{
     width: 300px;
-    height: 150px;
+    height: 18vh;
     left: 25%;
     top: 25px;
     position: absolute;
@@ -1331,7 +1332,7 @@ border-radius: 10px;
 
 .cdc4{
     width: 600px;
-    height: 300px;
+    height: 34vh;
     background-color: #5488e91a;
     left: 705px;
     top: 2vh;
@@ -1342,7 +1343,7 @@ border-radius: 10px;
     width: 550px;
     height: 13vh;
     left: 2.75%;
-    top: 200px;
+    top: 23.5vh;
     position: absolute;
     border-radius: 20px;
     border: 1px solid black;
@@ -1357,7 +1358,7 @@ border-radius: 10px;
     width: 200px;
     height: 20px;
     left: 2%;
-    top: 310px;
+    top: 35vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1371,7 +1372,7 @@ border-radius: 10px;
     width: 80px;
     height: 30px;
     left: 70%;
-    top: 310px;
+    top: 34.5vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1386,7 +1387,7 @@ border-radius: 10px;
 }
 .cdc44{
     width: 612px;
-    height: 400px;
+    height: 42vh;
     left: 700px;
     top: 0px;
     position: absolute;
@@ -1396,7 +1397,7 @@ border-radius: 10px;
 }
 .cdc4 img{
     width: 300px;
-    height: 150px;
+    height: 18vh;
     left: 25%;
     top: 25px;
     position: absolute;
@@ -1412,7 +1413,7 @@ border-radius: 10px;
 
 .cdc5{
     width: 600px;
-    height: 300px;
+    height: 34vh;
     background-color: #5488e91a;
     left: -112.75%;
     top: 50vh;
@@ -1423,7 +1424,7 @@ border-radius: 10px;
     width: 550px;
     height: 13vh;
     left: 2%;
-    top: 200px;
+    top: 23.5vh;
     position: absolute;
     border-radius: 20px;
     border: 1px solid black;
@@ -1438,7 +1439,7 @@ border-radius: 10px;
     width: 200px;
     height: 20px;
     left: 2%;
-    top: 315px;
+    top: 35vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1452,7 +1453,7 @@ border-radius: 10px;
     width: 80px;
     height: 25px;
     left: 70%;
-    top: 315px;
+    top: 35vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1467,7 +1468,7 @@ border-radius: 10px;
 }
 .cdc55{
     width: 612px;
-    height: 400px;
+    height: 42vh;
     left: -114%;
     top: 49vh;
     position: absolute;
@@ -1477,7 +1478,7 @@ border-radius: 10px;
 }
 .cdc5 img{
     width: 300px;
-    height: 150px;
+    height: 18vh;
     left: 25%;
     top: 25px;
     position: absolute;
@@ -1487,7 +1488,7 @@ border-radius: 10px;
 
 .cdc6{
     width: 600px;
-    height: 300px;
+    height: 34vh;
     background-color: #5488e91a;
     left: 705px;
     top: 2vh;
@@ -1498,7 +1499,7 @@ border-radius: 10px;
     width: 550px;
     height: 13vh;
     left: 2.75%;
-    top: 200px;
+    top: 23.5vh;
     position: absolute;
     border-radius: 20px;
     border: 1px solid black;
@@ -1513,7 +1514,7 @@ border-radius: 10px;
     width: 200px;
     height: 20px;
     left: 2%;
-    top: 310px;
+    top: 35vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1527,7 +1528,7 @@ border-radius: 10px;
     width: 80px;
     height: 30px;
     left: 70%;
-    top: 310px;
+    top: 34.5vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1542,7 +1543,7 @@ border-radius: 10px;
 }
 .cdc66{
     width: 612px;
-    height: 400px;
+    height: 42vh;
     left: 700px;
     top: 0px;
     position: absolute;
@@ -1552,7 +1553,7 @@ border-radius: 10px;
 }
 .cdc6 img{
     width: 300px;
-    height: 150px;
+    height: 18vh;
     left: 25%;
     top: 25px;
     position: absolute;
