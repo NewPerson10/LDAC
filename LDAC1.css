@@ -1,5 +1,5 @@
 
-@media screen and  (min-width: 100px) {
+@media screen and  (min-width: 100px) and (max-width: 450) {
 *{
     margin: 0;
     padding: 0;
