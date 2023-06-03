@@ -147,7 +147,7 @@
 
 
 .banner-btn {
-    padding-top: 47vh;
+    padding-top: 50vh;
     padding-left: 95%;
     width: 350px;
 }
@@ -203,7 +203,7 @@
     overflow-x: auto;
     white-space: nowrap;
     position: absolute;
-    padding-top: 8.2vh;
+    padding-top: 7vh;
 }
 
 .horizontal-scroll::-webkit-scrollbar{
