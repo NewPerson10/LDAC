@@ -14,8 +14,8 @@
 }
 .taskbar{
     width: 1325px;
-    height: 70px;
-    position: fixed;
+    height: 100px;
+    position: absolute;
     background-color: #ffffff;
     border-radius:10px;
     z-index: 3;
@@ -25,13 +25,13 @@
 
 }
 .taskbar img{
-    width: 80px;
+    width: 120px;
     margin: 5px;
 }
 .logo-text{
     position: absolute;
-    top: 35%;
-    left: 7%;
+    top: 45%;
+    left: 11%;
     font-size: 140%
 }
 .search{
@@ -39,12 +39,12 @@
     height: 60px;
     width: 560px;
     top: 7.5%;
-    left: 43%;
+    left: 46%;
 }
 #search-bar{
     position: absolute;
     top: 20%;
-    height: 35px;
+    height: 60px;
     width: 500px;
     background-color: #4ea0e422;
     border: 1px solid black;
@@ -56,7 +56,7 @@
 #search-button{
     width: 60px;
     height: 40px;
-    top: 15%;
+    top: 35%;
     position: absolute;
     left: 490px;
     background-color: #357ace00;
@@ -71,8 +71,8 @@
     position: absolute;
     width: 100px;
     height: 45px;
-    top: 14%;
-    left: 1150px; 
+    top: 25%;
+    left: 1185px; 
 }
 .sign-in b{ 
     position: absolute;
@@ -91,19 +91,19 @@
     width: 150px;
     height: 45px;
     top: 110%;
-    left: 950px;
+    left: 850px;
     
 }
 .contact b{
     position: absolute;
     top: 40%;
     color: #ffffff;
-    font-size: 170%;
+    font-size: 230%;
 }
 .contact img{
-    width: 30px;
-    height: 30px;
-    padding-left: 110px;
+    width: 50px;
+    height: 50px;
+    padding-left: 150px;
     padding-top: 10px;
 }
 .about{
@@ -111,18 +111,18 @@
     width: 150px;
     height: 45px;
     top: 110%;
-    left: 1180px; 
+    left: 1150px; 
 }
 .about b{
     position: absolute;
     top: 40%;
     color: #ffffff;
-    font-size: 170%;
+    font-size: 230%;
 }
 .about img{ 
-    width: 30px;
-    height: 30px;
-    padding-left: 90px;
+    width: 50px;
+    height: 50px;
+    padding-left: 120px;
     padding-top: 8px;
 }
 
@@ -135,19 +135,19 @@
     height: 105vh;
 }
 .banner-text h4 b{
-    font-size: 300%;
+    font-size: 500%;
     color: #ffffff;
 }
 .banner-text h1{
     padding-top: 3vh;
-    font-size: 200%;
+    font-size: 250%;
     color: #ffffff92;
 }
 
 
 .banner-btn {
-    padding-top: 75vh;
-    padding-left: 15%;
+    padding-top: 55vh;
+    padding-left: 95%;
     width: 350px;
     height: 10vh;
 }
@@ -190,15 +190,15 @@
 .banner-box{
     width:900px;
     height: 65vh;
-    padding-top: 38vh;
-    padding-left: 5%;
+    padding-top: 60vh;
+    padding-left: 10%;
     display: inline-block;
     position: absolute;
 }
 
 .horizontal-scroll{
-    width:600px;
-    height: 65vh;
+    width:650px;
+    height: 70vh;
     padding: 1%;
     overflow-x: auto;
     white-space: nowrap;
@@ -209,8 +209,8 @@
   display: none; /* For Chrome, Safari, and Opera */
 }
 .horizontal-scroll img{
-    width:600px;
-    height: 50vh;
+    width:650px;
+    height: 55vh;
     padding: 1%;
     border-radius: 100px;
     display: inline-block;
@@ -220,8 +220,8 @@
     width: 550px;
     height: 70px;
     background-color: #ffffff2f;
-    top:80%;
-    left: 7%;
+    top:83%;
+    left: 10%;
     position: absolute;
     border-radius: 10px;
 }
@@ -234,8 +234,8 @@
     width: 550px;
     height: 70px;
     background-color: #ffffff2f;
-    top: 80%;
-    left: 105%;
+    top: 83%;
+    left: 110%;
     position: absolute;
     border-radius: 10px;
 }
@@ -248,8 +248,8 @@
     width: 550px;
     height: 70px;
     background-color: #ffffff2f;
-    top: 80%;
-    left: 210%;
+    top: 83%;
+    left: 212%;
     position: absolute;
     border-radius: 10px;
 
@@ -261,19 +261,19 @@
 }
 
 #menubtn{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 140px;
     background: #4ea1e438;
     text-align: center;
     position: fixed;
     right: 60px;
-    top: 20vh;
+    top: 25vh;
     border-radius: 3px;
     z-index: 3;
     cursor: pointer;
 }
 #menubtn img{
-    width: 50px;
+    width: 70px;
     margin-top: 30px;
 }
 
@@ -310,9 +310,9 @@ nav ul li a{
     width: 350px;
     height: 40vh;
     background-color: #ffffff4c;
-    top: 55vh;
+    top: 45vh;
     position:absolute;
-    left: 810px;
+    left: 950px;
     border-radius: 50px;
 }
 .banner-sqr2 p{
@@ -321,9 +321,9 @@ nav ul li a{
     background-color: #ffffff00;
     border: 1px solid black;
     border-color: #ffffff7b;
-    top: 90vh;
+    top: 80vh;
     position:absolute;
-    left: 730px;
+    left: 800px;
     border-radius: 40px;
 }
 
@@ -348,6 +348,7 @@ nav ul li a{
         position:relative;
         z-index: 1;
         display: inline-block;
+        font-size: 200%;
 }
 .title-text p::after{
     content: '';
@@ -364,8 +365,9 @@ nav ul li a{
 }
 
 .title-text h1{
-    font-size: 50px;
+   
     padding-top: 1%;
+    font-size: 500%;
 }
 
 .line1 {
@@ -374,19 +376,20 @@ nav ul li a{
 }
 
 .line1 img{
-    width: 200px;
-    height: 140px;
+    width: 150px;
+    height: 110px;
     position: absolute;
     display: inline-block;
     border-radius: 10px;
-    left: 170px;
+    left: 150px;
+    padding-top: 7%;
 }
 .line2{
     width: 370px;
     height: 15vh;
     display: inline-block;
     position: absolute;
-    left: 900px;
+    left: 930px;
     padding-top: 3vh;
     border-radius: 10px;
     background-color: #025dcd0a;
@@ -399,7 +402,7 @@ nav ul li a{
     width: 50px;
     height: 35px;
     position: absolute;
-    left: 555px;
+    left: 520px;
     top: 134.5vh;
     border-top-left-radius: 35px;
     border-bottom-right-radius: 35px;
@@ -413,7 +416,7 @@ nav ul li a{
     width: 50px;
     height: 35px;
     position: absolute;
-    left: 555px;
+    left: 520px;
     top: 138vh;
     border-top-right-radius: 35px;
     border-bottom-left-radius: 35px;
@@ -426,6 +429,7 @@ nav ul li a{
 
 .feature-box{
     width: 90%;
+    height: 80vh;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -452,17 +456,22 @@ nav ul li a{
     text-align: left;
     margin-bottom: 10px;
     font-weight: 100;
+    font-size: 400%;
+    padding-left: 60px;
     color:#8d1e1e;
 }
 .features-desc{
+
     display: flex;
     align-items: center;
     margin-bottom: 40px;
+    font-size: 200%;
+    padding-top: 8vh;
 }
 .feature-btn{
     position: absolute;
-    padding-left: 10px;
-    padding-top: 21vh;
+    padding-left: 900px;
+    padding-top: 60vh;
 }
 
 .feature-btn a{
@@ -490,6 +499,7 @@ nav ul li a{
   .feature-box1{
     width: 90%;
     margin: auto;
+    height: 80vh;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -515,19 +525,22 @@ nav ul li a{
 .features1 h1{
     text-align: left;
     margin-bottom: 10px;
-    padding-left: 20px;
     font-weight: 100;
+    font-size: 400%;
+    padding-left: 60px;
     color:#8d1e1e;
 }
 .features-desc1{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
+    font-size: 200%;
+    padding-top: 8vh;
 }
 .feature-btn1{
     position: absolute;
-    padding-left: 00px;
-    padding-top: 22vh;
+    padding-left: 900px;
+    padding-top: 60vh;
 }
 .feature-btn1 a{
     width: 100px;
@@ -551,8 +564,8 @@ nav ul li a{
   }
 .feature-btn2{
     position: absolute;
-    padding-left: 00px;
-    padding-top: 23vh;
+    padding-left: 900px;
+    padding-top: 60vh;
 }
 
 .feature-btn2 a{
@@ -577,8 +590,8 @@ nav ul li a{
   }
 .feature-btn3{
     position: absolute;
-    padding-left: 00px;
-    padding-top: 22vh;
+    padding-left: 900px;
+    padding-top: 60vh;
 }
 
 .feature-btn3 a{
@@ -604,6 +617,7 @@ nav ul li a{
 
 .feature-box2{
     width: 90%;
+    height: 80vh;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -629,6 +643,8 @@ nav ul li a{
 .features2 h1{
     text-align: left;
     margin-bottom: 10px;
+    font-size: 400%;
+    padding-left: 60px;
     font-weight: 100;
     color:#8d1e1e;
 }
@@ -636,11 +652,14 @@ nav ul li a{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
+    font-size: 200%;
+    padding-top: 8vh;
 }
 
 .feature-box3{
     width: 90%;
     margin: auto;
+    height: 80vh;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -666,12 +685,16 @@ nav ul li a{
     text-align: left;
     margin-bottom: 10px;
     font-weight: 100;
+    font-size: 400%;
+    padding-left: 60px;
     color:#8d1e1e;
 }
 .features-desc3{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
+    font-size: 200%;
+    padding-top: 8vh;
 }
 
 
