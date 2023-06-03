@@ -131,11 +131,11 @@
     position: absolute;
     top: 20vh;
     left: 5%;
-    width: 800px;
+    width: 850px;
     height: 105vh;
 }
 .banner-text h4{
-    font-size: 450%;
+    font-size: 400%;
     color: #ffffff;
     padding-top: 3vh;
 }
@@ -203,7 +203,7 @@
     overflow-x: auto;
     white-space: nowrap;
     position: absolute;
-    padding-top: 8vh;
+    padding-top: 9vh;
 }
 
 .horizontal-scroll::-webkit-scrollbar{
@@ -820,14 +820,15 @@ border-radius: 10px;
 }
 .swipe{
     position: absolute;
-    top: 12%;
-    left: 60%;
+    top: 11%;
+    left: 65%;
     transform: translate(-50%, -50%);
     padding: 8px 20px;
     color: black;
     font-size: 20px;
     border-radius: 20px; 
     background-color: #4ea0e41d; 
+    width: 500px;
 }
 .Jerk {
     position: absolute;
