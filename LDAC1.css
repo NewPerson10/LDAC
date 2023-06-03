@@ -134,12 +134,13 @@
     width: 900px;
     height: 105vh;
 }
-.banner-text h4 b{
+.banner-text h4{
     font-size: 500%;
     color: #ffffff;
+    padding-top: 3vh;
 }
 .banner-text h1{
-    padding-top: 3vh;
+    padding-top: 7vh;
     font-size: 250%;
     color: #ffffff92;
 }
@@ -190,7 +191,7 @@
 .banner-box{
     width:900px;
     height: 65vh;
-    padding-top: 60vh;
+    padding-top: 70vh;
     padding-left: 10%;
     display: inline-block;
     position: absolute;
@@ -224,6 +225,7 @@
     left: 10%;
     position: absolute;
     border-radius: 10px;
+    display: none;
 }
 .scroll-box p{
     color: #fff;
@@ -238,6 +240,7 @@
     left: 110%;
     position: absolute;
     border-radius: 10px;
+    display: none;
 }
 .scroll-box1 p{
     color: #fff;
@@ -252,7 +255,7 @@
     left: 212%;
     position: absolute;
     border-radius: 10px;
-
+    display: none;
 }
 .scroll-box2 p{
     color: #fff;
@@ -261,13 +264,13 @@
 }
 
 #menubtn{
-    width: 150px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
     background: #4ea1e438;
     text-align: center;
     position: fixed;
     right: 60px;
-    top: 25vh;
+    top: 28vh;
     border-radius: 3px;
     z-index: 3;
     cursor: pointer;
@@ -278,7 +281,7 @@
 }
 
 #SideNav{
-    width: 200px;
+    width: 250px;
     height: 340vh;
     position: fixed;
     right: -250px;
@@ -296,13 +299,13 @@ nav ul{
 nav ul li{
     
     list-style: none;
-    margin: 100px 20px;
+    margin: 100px 40px;
     
 }
 nav ul li a{
     text-decoration: none;
     color: #fff;
-    font-size: 150%;
+    font-size: 200%;
     
 }
 
@@ -711,9 +714,10 @@ border-radius: 10px;
 }
 .randomtext{
     width: 1250px;
-    height: 5vh;
+    height: 10vh;
     left: 50px;
     padding-top: 4vh;
+    font-size: 200%;
 }
 .randomtext h6{
     width: 1250px;
@@ -1068,7 +1072,7 @@ border-radius: 10px;
     width: 1000px;
     height: 55px;
     left: 180px;
-    top: 80vh;
+    top: 75vh;
     position: relative;
     text-align: center;
     border-radius: 30px;
