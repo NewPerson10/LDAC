@@ -83,7 +83,7 @@
 .sign-in img{
     width: 30px;
     height: 30px;
-    padding-left: 95px;
+    padding-left: 85px;
     padding-top: 7px;
 }
 .contact{
@@ -1109,10 +1109,10 @@ border-radius: 10px;
     padding-right: 10px;
 }
 .cdc1sqr2 p{
-    width: 200px;
+    width: 300px;
     height: 20px;
-    left: 2%;
-    top: 36vh;
+    left: 25%;
+    top: 35.25vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1120,7 +1120,7 @@ border-radius: 10px;
     font-size: 80%;
     padding-right: 10px;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 40px;
 }
 .cdc1sqr3 p{
     width: 80px;
@@ -1138,6 +1138,7 @@ border-radius: 10px;
     background-color: #025dcd68;
     cursor: pointer;
     text-align: center;
+    display: none;
 }
 .cdc11{
     width: 612px;
@@ -1184,10 +1185,10 @@ border-radius: 10px;
     border-color: #5488e988;
 }
 .cdc2sqr2 p{
-    width: 200px;
+    width: 300px;
     height: 20px;
-    left: 2%;
-    top: 36vh;
+    left: 25%;
+    top: 35vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1195,7 +1196,7 @@ border-radius: 10px;
     font-size: 80%;
     padding-right: 10px;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 40px;
 }
 .cdc2sqr3 {
     width: 80px;
@@ -1213,6 +1214,7 @@ border-radius: 10px;
     background-color: #025dcd68;
     cursor: pointer;
     text-align: center;
+    display: none;
 }
 .cdc22{
     width: 612px;
@@ -1263,10 +1265,10 @@ border-radius: 10px;
     padding-right: 10px;
 }
 .cdc3sqr2 p{
-    width: 200px;
+    width: 300px;
     height: 20px;
-    left: 2%;
-    top: 36vh;
+    left: 25%;
+    top: 36.25vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1274,7 +1276,7 @@ border-radius: 10px;
     font-size: 80%;
     padding-right: 10px;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 40px;
 }
 .cdc3sqr3 p{
     width: 80px;
@@ -1292,6 +1294,7 @@ border-radius: 10px;
     background-color: #025dcd68;
     cursor: pointer;
     text-align: center;
+    display: none;
 }
 .cdc33{
     width: 612px;
@@ -1338,10 +1341,10 @@ border-radius: 10px;
     border-color: #5488e988;
 }
 .cdc4sqr2 p{
-    width: 200px;
+    width: 300px;
     height: 20px;
-    left: 2%;
-    top: 36vh;
+    left: 25%;
+    top: 35.25vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1349,7 +1352,7 @@ border-radius: 10px;
     font-size: 80%;
     padding-right: 10px;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 40px;
 }
 .cdc4sqr3 {
     width: 80px;
@@ -1367,6 +1370,7 @@ border-radius: 10px;
     background-color: #025dcd68;
     cursor: pointer;
     text-align: center;
+    display: none;
 }
 .cdc44{
     width: 612px;
@@ -1419,10 +1423,10 @@ border-radius: 10px;
     padding-right: 10px;
 }
 .cdc5sqr2 p{
-    width: 200px;
+    width: 300px;
     height: 20px;
-    left: 2%;
-    top: 36vh;
+    left: 25%;
+    top: 35.5vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1430,7 +1434,7 @@ border-radius: 10px;
     font-size: 80%;
     padding-right: 10px;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 40px;
 }
 .cdc5sqr3 p{
     width: 80px;
@@ -1448,6 +1452,7 @@ border-radius: 10px;
     background-color: #025dcd68;
     cursor: pointer;
     text-align: center;
+    display: none;
 }
 .cdc55{
     width: 612px;
@@ -1494,10 +1499,10 @@ border-radius: 10px;
     border-color: #5488e988;
 }
 .cdc6sqr2 p{
-    width: 200px;
+    width: 300px;
     height: 20px;
-    left: 2%;
-    top: 36vh;
+    left: 25%;
+    top: 35vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
@@ -1505,7 +1510,7 @@ border-radius: 10px;
     font-size: 80%;
     padding-right: 10px;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 40px;
 }
 .cdc6sqr3 {
     width: 80px;
@@ -1523,6 +1528,7 @@ border-radius: 10px;
     background-color: #025dcd68;
     cursor: pointer;
     text-align: center;
+    display: none;
 }
 .cdc66{
     width: 612px;
