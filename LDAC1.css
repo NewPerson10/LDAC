@@ -10,10 +10,10 @@
     background-size: cover;
     background-position: center;
     height: 130vh;
-    width: 1350px;
+    width: 1360px;
 }
 .taskbar{
-    width: 1325px;
+    width: 1335px;
     height: 100px;
     position: absolute;
     background-color: #ffffff;
@@ -37,7 +37,7 @@
 .search{
     position: absolute;
     height: 60px;
-    width: 560px;
+    width: 650px;
     top: 7.5%;
     left: 46%;
 }
@@ -45,7 +45,7 @@
     position: absolute;
     top: 20%;
     height: 60px;
-    width: 500px;
+    width: 600px;
     background-color: #4ea0e422;
     border: 1px solid black;
     border-color: #4ea0e422;
@@ -58,7 +58,7 @@
     height: 40px;
     top: 35%;
     position: absolute;
-    left: 490px;
+    left: 580px;
     background-color: #357ace00;
     border: 1px solid black;
     border-color: #357ace00;
@@ -67,12 +67,14 @@
     width: 30px;
     height: 30px;
 }
+
 .sign-in{
     position: absolute;
     width: 100px;
     height: 45px;
     top: 25%;
     left: 1185px; 
+    display: none;
 }
 .sign-in b{ 
     position: absolute;
@@ -86,45 +88,180 @@
     padding-left: 85px;
     padding-top: 7px;
 }
-.contact{
+
+#contact{
     position: absolute;
     width: 150px;
     height: 45px;
     top: 110%;
     left: 850px;
+    cursor: pointer;
     
 }
-.contact b{
+#contact b{
     position: absolute;
     top: 40%;
     color: #ffffff;
     font-size: 230%;
 }
-.contact img{
+#contact img{
     width: 50px;
     height: 50px;
     padding-left: 150px;
     padding-top: 10px;
 }
-.about{
+#contactnav{
+    width: 500px;
+    height: 90vh;
+    right: -500px;
+    top: 35vh;
+    background: #4ea0e4e0;
+    z-index: 5;
+    transition: 0.5s;
+    text-align: left;
+    border-radius: 50px;
+    position: fixed;
+
+}
+#contactclose-btn{
+    margin-top: 7vh;
+    margin-left: 550px;
+    width: 200px;
+    height: 5vh;
+}
+#contactclose-btn b{
+    color: black;
+    width: 200px;
+    height: 4vh;
+    text-decoration: none ;
+    font-size: 30px;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    position: relative;
+    z-index: 1;
+    transition: color o.5s;
+    text-align: center;
+    transition: opacity 1s ease;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+nav ul{
+    padding-top: 350px;
+}
+
+nav ul li{
+    
+    list-style: none;
+    margin: 150px 40px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 200%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#about{
     position: absolute;
     width: 150px;
     height: 45px;
     top: 110%;
     left: 1150px; 
+    cursor: pointer;
 }
-.about b{
+#about b{
     position: absolute;
     top: 40%;
     color: #ffffff;
     font-size: 230%;
 }
-.about img{ 
+#about img{ 
     width: 50px;
     height: 50px;
     padding-left: 120px;
     padding-top: 8px;
 }
+
+#aboutnav{
+    width: 500px;
+    height: 90vh;
+    right: -500px;
+    top: 35vh;
+    background: #4ea0e4e0;
+    z-index: 5;
+    transition: 0.5s;
+    text-align: left;
+    border-radius: 50px;
+    position: fixed;
+
+}
+#aboutclose-btn{
+    margin-top: 7vh;
+    margin-left: 550px;
+    width: 200px;
+    height: 5vh;
+}
+#aboutclose-btn b{
+    color: black;
+    width: 200px;
+    height: 4vh;
+    text-decoration: none ;
+    font-size: 30px;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    position: relative;
+    z-index: 1;
+    transition: color o.5s;
+    text-align: center;
+    transition: opacity 1s ease;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+nav ul{
+    padding-top: 350px;
+}
+
+nav ul li{
+    
+    list-style: none;
+    margin: 150px 40px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 200%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .banner-text{
     display: inline-block;
@@ -471,13 +608,13 @@ nav ul li a{
     font-size: 200%;
     padding-top: 8vh;
 }
-.feature-btn{
+#feature-btn{
     position: absolute;
     padding-left: 850px;
     padding-top: 60vh;
 }
 
-.feature-btn a{
+#feature-btn a{
     width: 200px;
     height: 4vh;
     text-decoration: none ;
@@ -495,9 +632,62 @@ nav ul li a{
     transition: opacity 1s ease;
     border-radius: 10px;
 }
-.feature-box:hover .feature-btn a {
+.feature-box:hover #feature-btn a {
     opacity: 1;
   }
+
+  #btn-nav{
+    width: 850px;
+    height: 120vh;
+    right: 500px;
+    top: 170vh;
+    background: #4ea0e4e0;
+    z-index: 5;
+    transition: 0.5s;
+    text-align: left;
+    border-radius: 50px;
+    position:absolute;
+
+}
+#featureclose-btn{
+    margin-top: 7vh;
+    margin-left: 550px;
+    width: 200px;
+    height: 5vh;
+}
+#featureclose-btn b{
+    color: black;
+    width: 200px;
+    height: 4vh;
+    text-decoration: none ;
+    font-size: 30px;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    position: relative;
+    z-index: 1;
+    transition: color o.5s;
+    text-align: center;
+    transition: opacity 1s ease;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+nav ul{
+    padding-top: 350px;
+}
+
+nav ul li{
+    
+    list-style: none;
+    margin: 150px 40px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 200%;
+    
+}
 
 
   .feature-box1{
@@ -541,12 +731,12 @@ nav ul li a{
     font-size: 200%;
     padding-top: 8vh;
 }
-.feature-btn1{
+#feature-btn1{
     position: absolute;
     padding-left: 850px;
     padding-top: 60vh;
 }
-.feature-btn1 a{
+#feature-btn1 a{
     width: 200px;
     height: 4vh;
     text-decoration: none ;
@@ -564,16 +754,75 @@ nav ul li a{
     background-color: #025dcdac;
     border-radius: 10px;
 }
-.feature-box1:hover .feature-btn1 a {
+.feature-box1:hover #feature-btn1 a {
     opacity: 1;
   }
-.feature-btn2{
+
+  #btn1-nav{
+    width: 850px;
+    height: 120vh;
+    right: 500px;
+    top: 250vh;
+    background: #4ea0e4e0;
+    z-index: 5;
+    transition: 0.5s;
+    text-align: left;
+    border-radius: 50px;
+    position:absolute;
+
+}
+#featureclose-btn1{
+    margin-top: 7vh;
+    margin-left: 550px;
+    width: 200px;
+    height: 5vh;
+}
+#featureclose-btn1 b{
+    color: black;
+    width: 200px;
+    height: 4vh;
+    text-decoration: none ;
+    font-size: 30px;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    position: relative;
+    z-index: 1;
+    transition: color o.5s;
+    text-align: center;
+    transition: opacity 1s ease;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+nav ul{
+    padding-top: 350px;
+}
+
+nav ul li{
+    
+    list-style: none;
+    margin: 150px 40px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 200%;
+    
+}
+
+
+
+
+
+
+#feature-btn2{
     position: absolute;
     padding-left: 850px;
     padding-top: 60vh;
 }
 
-.feature-btn2 a{
+#feature-btn2 a{
     width: 200px;
     height: 4vh;
     text-decoration: none ;
@@ -591,16 +840,75 @@ nav ul li a{
     background-color: #025dcdac;
     border-radius: 10px;
 }
-.feature-box2:hover .feature-btn2 a {
+.feature-box2:hover #feature-btn2 a {
     opacity: 1;
   }
-.feature-btn3{
+
+#btn2-nav{
+    width: 850px;
+    height: 120vh;
+    right: 500px;
+    top: 330vh;
+    background: #4ea0e4e0;
+    z-index: 5;
+    transition: 0.5s;
+    text-align: left;
+    border-radius: 50px;
+    position:absolute;
+
+}
+#featureclose-btn2{
+    margin-top: 7vh;
+    margin-left: 550px;
+    width: 200px;
+    height: 5vh;
+}
+#featureclose-btn2 b{
+    color: black;
+    width: 200px;
+    height: 4vh;
+    text-decoration: none ;
+    font-size: 30px;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    position: relative;
+    z-index: 1;
+    transition: color o.5s;
+    text-align: center;
+    transition: opacity 1s ease;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+nav ul{
+    padding-top: 350px;
+}
+
+nav ul li{
+    
+    list-style: none;
+    margin: 150px 40px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 200%;
+    
+}
+
+
+
+
+
+#feature-btn3{
     position: absolute;
     padding-left: 850px;
     padding-top: 60vh;
 }
 
-.feature-btn3 a{
+#feature-btn3 a{
     width: 200px;
     height: 4vh;
     text-decoration: none ;
@@ -618,9 +926,68 @@ nav ul li a{
     background-color: #025dcdac;
     border-radius: 10px;
 }
-.feature-box3:hover .feature-btn3 a {
+.feature-box3:hover #feature-btn3 a {
     opacity: 1;
   }
+
+  #btn3-nav{
+    width: 850px;
+    height: 120vh;
+    right: 500px;
+    top: 410vh;
+    background: #4ea0e4e0;
+    z-index: 5;
+    transition: 0.5s;
+    text-align: left;
+    border-radius: 50px;
+    position:absolute;
+
+}
+
+#featureclose-btn3{
+    margin-top: 7vh;
+    margin-left: 550px;
+    width: 200px;
+    height: 5vh;
+}
+#featureclose-btn3 b{
+    color: black;
+    width: 200px;
+    height: 4vh;
+    text-decoration: none ;
+    font-size: 30px;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    position: relative;
+    z-index: 1;
+    transition: color o.5s;
+    text-align: center;
+    transition: opacity 1s ease;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+nav ul{
+    padding-top: 350px;
+}
+
+nav ul li{
+    
+    list-style: none;
+    margin: 150px 40px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 200%;
+    
+}
+
+
+
+
+
 
 .feature-box2{
     width: 90%;
@@ -1562,7 +1929,65 @@ border-radius: 10px;
 
 
 
+/* float in boxs for read buttons in features
 
+
+#featurebtn{
+    position: absolute;
+    padding-left: 850px;
+    padding-top: 60vh;
+}
+
+#featurebtn a{
+    width: 200px;
+    height: 4vh;
+    text-decoration: none ;
+    font-size: 30px;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    transition: color o.5s;
+    text-align: center;
+    background-color: #025dcdac;
+    opacity: 0.5;
+    transition: opacity 1s ease;
+    border-radius: 10px;
+}
+.feature-box:hover .featurebtn a {
+    opacity: 1;
+  }
+
+#featuresnav{
+    width: 800px;
+    height: 90vh;
+    right: -800px;
+    top: 170vh;
+    background: #000000f4;
+    z-index: 5;
+    transition: 0.5s;
+    text-align: center;
+    border-radius: 50px;
+    position: fixed;
+
+}
+#featuresimg{
+    margin-left: 1050px;
+    display: none;
+}
+#featuresnav nav ul{
+    padding-top: 10px;
+}
+
+#featuresnav nav ul li{
+    
+    text-decoration: none;
+    color: #000;
+    font-size: 150%;
+    
+} */
 
 
 
