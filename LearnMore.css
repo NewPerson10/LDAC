@@ -16,6 +16,7 @@
         margin-left: 10px;
         margin-top: 10px;
         margin-right: 10px;
+        opacity: 0.8;
     }
     .taskbar{
         width: 1305px;
@@ -93,7 +94,7 @@
         position: absolute;
         width: 150px;
         height: 45px;
-        top: 12vh;
+        top: 20vh;
         left: 800px;
         
     }
@@ -113,7 +114,7 @@
         position: absolute;
         width: 150px;
         height: 45px;
-        top: 12vh;
+        top: 20vh;
         left: 1100px; 
     }
     .about b{
