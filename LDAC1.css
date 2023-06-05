@@ -94,7 +94,7 @@
     width: 150px;
     height: 45px;
     top: 110%;
-    left: 850px;
+    left: 870px;
     cursor: pointer;
     
 }
@@ -123,34 +123,6 @@
     position: fixed;
     font-size: 230%;
 
-}
-#contactclose-btn{
-    margin-top: 7vh;
-    margin-left: 550px;
-    width: 200px;
-    height: 5vh;
-}
-#contactclose-btn b{
-    color: black;
-    width: 200px;
-    height: 4vh;
-    text-decoration: none ;
-    font-size: 30px;
-    display: inline-block;
-    margin: 0 10px;
-    padding: 12px 0;
-    position: relative;
-    z-index: 1;
-    transition: color o.5s;
-    text-align: center;
-    transition: opacity 1s ease;
-    background-color: #ffffff;
-    border-radius: 10px;
-}
-nav ul{
-    top: 10px;
-    position: fixed;
-    width: 500px;
 }
 
 
@@ -204,34 +176,7 @@ nav ul{
     position: fixed;
 
 }
-#aboutclose-btn{
-    margin-top: 7vh;
-    margin-left: 550px;
-    width: 200px;
-    height: 5vh;
-}
-#aboutclose-btn b{
-    color: black;
-    width: 200px;
-    height: 4vh;
-    text-decoration: none ;
-    font-size: 30px;
-    display: inline-block;
-    margin: 0 10px;
-    padding: 12px 0;
-    position: relative;
-    z-index: 1;
-    transition: color o.5s;
-    text-align: center;
-    transition: opacity 1s ease;
-    background-color: #ffffff;
-    border-radius: 10px;
-}
-nav ul{
-    top: 10px;
-    position: fixed;
-    width: 500px;
-}
+
 
 
 
