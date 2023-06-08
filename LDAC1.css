@@ -1190,7 +1190,7 @@ border-radius: 10px;
     opacity: 0;
     transition: opacity 1s ease;
     border-radius: 20px;
-    background-color: #5488e988;
+    background-color: #5488e9;
     border-color: 1px solid black;
     border-color: #4ea0e468;
   }
@@ -1215,6 +1215,9 @@ border-radius: 10px;
     transition: opacity 1s ease;
     border-radius: 10px;
   }
+  .overlay-button{
+    text-decoration: none;
+  }
   
   .Events-scroll:hover .overlay-button {
     opacity: 1;
@@ -1236,6 +1239,9 @@ border-radius: 10px;
     transition: opacity 0.2s ease;
     border-radius: 10px;
   }
+  .overlay-button1{
+    text-decoration: none;
+  }
   
   .Events-scroll:hover .overlay-button1 {
     opacity: 1;
@@ -1253,7 +1259,7 @@ border-radius: 10px;
     opacity: 0;
     transition: opacity 1s ease;
     border-radius: 20px;
-    background-color: #5488e988;
+    background-color: #5488e9;
     border-color: 1px solid black;
     border-color: #4ea0e468;
   }
@@ -1279,6 +1285,9 @@ border-radius: 10px;
     transition: opacity 0.2s ease;
     border-radius: 10px;
   }
+  .overlay-button2{
+    text-decoration: none;
+  }
   
   .Events-scroll:hover .overlay-button2 {
     opacity: 1;
@@ -1295,7 +1304,7 @@ border-radius: 10px;
     opacity: 0;
     transition: opacity 1s ease;
     border-radius: 20px;
-    background-color: #5488e988;
+    background-color: #5488e9;
     border-color: 1px solid black;
     border-color: #4ea0e468;
   }
