@@ -78,6 +78,48 @@
     width: 30px;
     height: 30px;
 }
+#suggestions {
+    list-style-type: none;
+    background-color: #ffffff;
+    width: 500px;
+    height: 70vh;
+    margin: 0;
+    padding-left: 30px;
+    padding-top: 15px;
+    margin-top: 12vh;
+    display: none;
+    border-radius: 20px;
+    text-decoration: none ;
+    z-index: 99999999999;
+    position: absolute;
+}
+#suggestions li {
+    background-color: #0044bb68;
+    height: 60px;
+    width: 450px;
+    padding: 18px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom:25px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    z-index: 99;
+}
+#suggestions li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 200%;
+    width: 200%;
+    height: 200%;
+}
+
+#suggestions li:hover {
+    background-color: #0045bb;
+}
+.search-bar-active #suggestions {
+    display: block; /* Show the suggestions box when search bar is active */
+}
 
 .sign-in{
     position: absolute;
