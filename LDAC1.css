@@ -284,6 +284,7 @@
 .horizontal-scroll::-webkit-scrollbar{
   display: none; /* For Chrome, Safari, and Opera */
 }
+
 .horizontal-scroll img{
     width:600px;
     height: 50vh;
