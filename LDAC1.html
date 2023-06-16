@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content="width = device-width, viewport-fit=cover">
+        <link rel="icon" href="images/photo-output (10).PNG" type="image/png">
+        <link rel = "stylesheet" href="LDAC1.css">
+    </head>
+
+
+    <body>
+        <section id="BACK">
+
+        </section>
+
+
+        <section id="top">
+            <div class="taskbar"> 
+                <img src="images/photo-output (10).PNG">
+            <div class="logo-text"><p><b>LDAC</b></p></div>
+        
+            <div class="search">  
+                <form id="searchForm" onsubmit="openPage(); return false;">
+                    <input type="text" value="" id="search-bar" placeholder="Search..." onkeyup="showSuggestions()" onfocus= "showSuggestions()">
+                    <ul id="suggestions"></ul>
+                    <button type="submit" id="search-button" onclick="performSearch()">
+                        <img src="images/icons8-search-30.png" alt="search-icon">
+                    </button>
+                    <script>
+                        var links = [
+                            { url: "https://newperson10.github.io/LDAC/", text: "Home" },
+                            { url: "https://newperson10.github.io/LDAC-Learn-More/", text: "Learn More" },
+                            { url: "https://example.com/example1", text: "Example 1" },
+                            { url: "https://example.com/example2", text: "Example 2" },
+                            { url: "https://example.com/example3", text: "Example 3" },
+                            { url: "https://newperson10.github.io/Jerk-Festival/", text: "Jerk Festival" },
+                            { url: "https://newperson10.github.io/LDAC-Concert/", text: "Our Powerful CDC's in Concert" },
+                            { url: "https://newperson10.github.io/Awards-Ceremony/", text: "Awards Ceremony"}
+                        ];
+                
+                        function showSuggestions() {
+                            var typed = document.getElementById("search-bar").value.trim();
+                            var suggestionsContainer = document.getElementById("suggestions");
+                
+                            // Clear previous suggestions
+                            suggestionsContainer.innerHTML = "";
+                
+                            // Filter links based on the typed query
+                            var filteredLinks = links.filter(function(link) {
+                                return link.text.toLowerCase().includes(typed.toLowerCase());
+                            });
+
+                            var searchContainer = document.querySelector('.search');
+                
+                            // Display the filtered suggestions
+                            filteredLinks.forEach(function(link) {
+                                var li = document.createElement("li");
+                                var anchor = document.createElement("a");
+                                anchor.href = link.url;
+                                anchor.textContent = link.text;
+                                li.appendChild(anchor);
+                                suggestionsContainer.appendChild(li);
+                            });
+                         if (typed.length > 0 && document.activeElement === document.getElementById("search-bar")) {
+                            searchContainer.classList.add('search-bar-active');
+                            } else {
+                            searchContainer.classList.remove('search-bar-active');
+                        
+                            }
+                        }
+                
+                        function performSearch() {
+                            var typed = document.getElementById("search-bar").value.trim()
+
+                            // Redirect to the first matching link URL
+                            var matchingLink = links.find(function(link) {
+                                return link.text.toLowerCase() === typed.toLowerCase();
+                            });
+                
+                            if (matchingLink) {
+                                window.open(matchingLink.url);
+                            }
+                        }
+                             document.addEventListener('click', function(event) {
+                                var suggestionsContainer = document.getElementById("suggestions");
+
+                             // Check if the click target is outside the search bar and suggestions container
+                               if (!event.target.closest('.search') && !event.target.closest('#suggestions')) {
+                               suggestionsContainer.innerHTML = "";
+                                  }
+                                 });
+
+
+                                 function hideSuggestionsOnTouch(event) {
+                                    var suggestionsContainer = document.getElementById("suggestions");
+                                     var searchContainer = document.querySelector('.search');
+
+                                   // Check if the touch target is outside the search bar and suggestions container
+                                    if (!event.target.closest('.search') && !event.target.closest('#suggestions')) {
+                                    suggestionsContainer.innerHTML = "";
+                                    searchContainer.classList.remove('search-bar-active');
+                                        }
+                                    }
+
+                                    document.addEventListener('click', hideSuggestionsOnTouch);
+                                    document.addEventListener('touchstart', hideSuggestionsOnTouch);
+                                    </script>
+                                    </form>
+            </div>
+                
+               
+                <div id ="contact">
+                    <h5><b> CONTACT </b></h5>
+                    <img src="images/3.PNG" id="contactimg">
+                </div>
+
+
+                <div id="contactnav">
+                    <nav>
+                        <ul>
+                            <li> Press "CONTACT" to exit</li>
+                        </ul>
+                    </nav>
+                </div>
+        
+                <script>
+                    var contact=document.getElementById("contact")
+                    var contactnav=document.getElementById("contactnav")
+                    var contactimg=document.getElementById("contactimg")
+                    contactnav.style.right ="-500px";
+                contact.onclick = function(){
+                    if(contactnav.style.right =="-500px" ){
+                        contactnav.style.right = "185px";
+                        contact.src="images/3.PNG";
+                         // Slide out the aboutnav if it is currently open
+                        aboutnav.style.right = "-500px";
+                        aboutimg.src = "images/3.PNG";
+                    }
+                    else{
+                        contactnav.style.right = "-500px";
+                        contactimg.src="images/3.PNG";
+                    }
+                }
+                </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+                <div id ="about">
+                    <h5><b> ABOUT </b></h5>
+                    <img src="images/1 (1).PNG" id="aboutimg">
+                </div>
+
+                <div id="aboutnav">
+                    <nav>
+                        <ul>
+                            <li> Press "ABOUT" TO EXIT</li>
+                        </ul>
+                    </nav>
+                </div>
+        
+                <script>
+                    var about=document.getElementById("about")
+                    var aboutnav=document.getElementById("aboutnav")
+                    var aboutimg=document.getElementById("aboutimg")
+                    aboutnav.style.right ="-500px";
+                about.onclick = function(){
+                    if(aboutnav.style.right =="-500px" ){
+                        aboutnav.style.right = "185px";
+                        about.src="images/1 (1).PNG";
+                         // Slide out the aboutnav if it is currently open
+                        contactnav.style.right = "-500px";
+                        contactimg.src = "images/1 (1).PNG";
+                    }
+                    else{
+                        aboutnav.style.right = "-500px";
+                        aboutimg.src="images/1 (1).PNG";
+                    }
+                }
+                </script>
+
+
+
+                <div class ="sign-in">
+                    <a href="#"><span></span><b>Sign in</b></a>
+                    <img src="images/2.PNG">
+                </div>
+            </div> 
+
+            
+            <div class="banner-text">
+                <h4><b>Integrating Communities For Greater Development</b></h4>
+                <!-----<h2><p> </p></h2>----(blue circle, just commenting in case I need it back)--->
+                <h1>Foods that satisfy and soothe your craves</h1>
+                <div class="banner-btn">
+                    <a href="https://newperson10.github.io/LDAC-Learn-More/"><span></span><b>Learn More</b></a>
+                </div>
+
+            </div>
+
+
+            <div class = "banner-box">
+                <div class="horizontal-scroll">
+                    <img src="images/communities.png" alt="Image 1">
+                    <img src="images/community.png" alt="Image 2">
+                    <img src="images/partners.png" alt="Image 3">
+                     <!-----scroll timer-->
+                    <script>
+                         const horizontalscroll = document.querySelector('.horizontal-scroll');
+
+                        function scrollHorizontally() {
+                         horizontalscroll.scrollLeft += horizontalscroll.offsetWidth;
+                        }
+                            setInterval(scrollHorizontally, 20000);
+                    </script>
+                </div>
+            </div>
+
+            <div id = "menubtn">
+                <img src="images/photo-output (3).PNG" id="menu">
+            </div>
+
+            <div id="SideNav">
+                <nav>
+                    <ul>
+                        <li><a href="https://newperson10.github.io/LDAC-Home/"> WELCOME</a></li>
+                        <li><a href="#"> FEATURES</a></li>
+                        <li><a href="#"> SERVICES</a></li>
+                        <li><a href="#"> MEET US</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <script>
+                var menubtn=document.getElementById("menubtn")
+                var SideNav=document.getElementById("SideNav")
+                var menu=document.getElementById("menu")
+                SideNav.style.right ="-450px";
+            menubtn.onclick = function(){
+                if(SideNav.style.right =="-450px"){
+                    SideNav.style.right = "0";
+                    menu.src="images/x1.PNG";
+                }
+                else{
+                    SideNav.style.right = "-450px";
+                    menu.src="images/photo-output (3).PNG";
+                }
+            }
+            </script>
+            
+            
+            <div class="banner-sqr"><p> </p></div>
+            <div class="banner-sqr2"><p>  </p></div>
+            
+        </section>
+
+
+             <!---features-->
+     <section id ="feature">
+
+        <div class="line1">
+            <img src="images/photo-output (9).PNG">
+            <div class="line2"> <p>  vel ante scelerisque, id interdum enim congue. Fusce pellentesque, diam vel tempus lacinia, elit arcu suscipit ex, nec tempus urna turpis ac nunc. Integer vel luctus nibh. Quisque id nulla vel nulla gravida elementum.  </p></div>
+
+            <div class="title-text">
+                <p> FEATURES </p>
+                <h1> Why Join us </h1>
+                </div>
+           
+            <div class="square1"> <p>  </p></div>
+            <div class="square2"> <p>  </p></div>
+        </div>
+                    <!-----blue stroke-->
+                    <section id ="feature stroke">
+                        <div class="stroke">
+                            <p>  </p>
+                        </div>
+                    </section>
+                                <!----stroke end-->
+       
+        <div class = "feature-box">
+            <div class="features">
+                <h1>Common goals</h1>
+                <div class = "features-desc">
+                    <div class = "feature-icon">
+                        <i class="fa fa-shield" aria-hidden="true"></i>
+                    </div>
+                    <div class = "feature-text"></div>
+                    <p>Fusce ultricies urna vitae vestibulum volutpat. Curabitur et hendrerit libero. Morbi tellus nisi, scelerisque ac lectus non, tempor cursus turpis. Cras tristique egestas diam eu laoreet. Quisque id odio ipsum. Morbi porttitor diam scelerisque libero efficitur, eu rutrum purus aliquet. Quisque et finibus eros.</p>
+                    
+                </div>
+            </div>
+            <div class="features-img">
+                <img src="images/goals.PNG">
+            </div>
+
+
+
+
+
+
+            <div id="feature-btn">
+                <a href="#"><b>Read More</b></a>
+            </div>
+        </div>
+
+        <div id="btn-nav">
+            <div id="featureclose-btn">
+                <a href="#"><b>Back</b></a>
+            </div>
+            <nav>
+                <ul>
+                    <li> MEET US</li>
+                </ul>
+            </nav>
+        </div>
+
+        <script>
+            document.getElementById("feature-btn").addEventListener("click", function(event) {
+            event.preventDefault();
+
+            var btnnav = document.getElementById("btn-nav");
+            var btn1nav = document.getElementById("btn1-nav");
+            var btn2nav = document.getElementById("btn2-nav");
+            var btn3nav = document.getElementById("btn3-nav");
+            var featurebtn = document.getElementById("feature-btn");
+
+            if (btnnav.style.right === "-500px") {
+            btnnav.style.right = "500px";
+
+            } else {
+            btnnav.style.right = "-500px";
+
+            // Slide out the aboutnav if it is currently open
+             btn1nav.style.right = "500px";
+             btn2nav.style.right = "500px";
+             btn3nav.style.right = "500px";
+            }
+            });
+
+        </script>
+
+<script>
+    document.getElementById("featureclose-btn").addEventListener("click", function(event) {
+    event.preventDefault();
+
+    var btnnav = document.getElementById("btn-nav");
+    var featureclosebtn = document.getElementById("featureclose-btn");
+
+    if (btnnav.style.right === "-500px") {
+        btnnav.style.right = "500px";
+        
+        } else {
+        btnnav.style.right = "-500px";
+        }
+        });
+
+    </script>
+
+
+
+
+        
+
+        <div class = "feature-box1">
+            <div class="features1">
+                <h1>Help each other grow</h1>
+                <div class = "features-desc1">
+                    <div class = "feature-icon1">
+                        <i class="fa fa-shield1" aria-hidden="true"></i>
+                    </div>
+                    <div class = "feature-text"></div>
+                    <p>Fusce ultricies urna vitae vestibulum volutpat. Curabitur et hendrerit libero. Morbi tellus nisi, scelerisque ac lectus non, tempor cursus turpis. Cras tristique egestas diam eu laoreet. Quisque id odio ipsum. Morbi porttitor diam scelerisque libero efficitur, eu rutrum purus aliquet. Quisque et finibus eros.</p>
+                </div>
+            </div>
+            
+            <div class="features-img1">
+                <img src="images/grow.PNG">
+            </div>
+
+
+
+
+
+        <div id="feature-btn1">
+            <a href="#"><b>Read More</b></a>
+        </div>
+    </div>
+
+    <div id="btn1-nav">
+        <div id="featureclose-btn1">
+            <a href="#"><b>Back</b></a>
+        </div>
+        <nav>
+            <ul>
+                <li> MEET US</li>
+            </ul>
+        </nav>
+    </div>
+
+    <script>
+        document.getElementById("feature-btn1").addEventListener("click", function(event) {
+        event.preventDefault();
+        
+        var btnnav = document.getElementById("btn-nav");
+        var btn2nav = document.getElementById("btn2-nav");
+        var btn3nav = document.getElementById("btn3-nav");
+        var btn1nav = document.getElementById("btn1-nav");
+        var featurebtn = document.getElementById("feature-btn1");
+
+        if (btn1nav.style.right === "-500px") {
+        btn1nav.style.right = "500px";
+        
+        } else {
+        btn1nav.style.right = "-500px";
+        // Slide out the aboutnav if it is currently open
+        btnnav.style.right = "500px";
+        btn2nav.style.right = "500px";
+        btn3nav.style.right = "500px";
+        }
+        });
+
+    </script>
+
+<script>
+    document.getElementById("featureclose-btn1").addEventListener("click", function(event) {
+    event.preventDefault();
+
+    var btn1nav = document.getElementById("btn1-nav");
+    var featureclosebtn1 = document.getElementById("featureclose-btn");
+
+    if (btn1nav.style.right === "-500px") {
+        btn1nav.style.right = "500px";
+        } else {
+        btn1nav.style.right = "-500px";
+        }
+        });
+
+    </script>
+
+
+
+
+
+
+
+
+
+        <div class = "feature-box2">
+            <div class="features2">
+                <h1>Everyone has a voice</h1>
+                <div class = "features-desc2">
+                    <div class = "feature-icon2">
+                        <i class="fa fa-shield2" aria-hidden="true"></i>
+                    </div>
+                    <div class = "feature-text2"></div>
+                    <p>Fusce ultricies urna vitae vestibulum volutpat. Curabitur et hendrerit libero. Morbi tellus nisi, scelerisque ac lectus non, tempor cursus turpis. Cras tristique egestas diam eu laoreet. Quisque id odio ipsum. Morbi porttitor diam scelerisque libero efficitur, eu rutrum purus aliquet. Quisque et finibus eros.</p>
+                </div>
+            </div>
+            
+            <div class="features-img2">
+                <img src="images/voice.PNG">
+            </div>
+            <div id="feature-btn2">
+                <a href="#"><b>Read More</b></a>
+            </div>
+        </div>
+
+    <div id="btn2-nav">
+        <div id="featureclose-btn2">
+            <a href="#"><b>Back</b></a>
+        </div>
+        <nav>
+            <ul>
+                <li> MEET US</li>
+            </ul>
+        </nav>
+    </div>
+
+    <script>
+        document.getElementById("feature-btn2").addEventListener("click", function(event) {
+        event.preventDefault();
+
+        var btn1nav = document.getElementById("btn1-nav");
+        var btnnav = document.getElementById("btn-nav");
+        var btn3nav = document.getElementById("btn3-nav");
+        var btn2nav = document.getElementById("btn2-nav");
+        var featurebtn2 = document.getElementById("feature-btn2");
+
+        if (btn2nav.style.right === "-500px") {
+        btn2nav.style.right = "500px";
+      
+        } else {
+        btn2nav.style.right = "-500px";
+        // Slide out the aboutnav if it is currently open
+        btn1nav.style.right = "500px";
+        btnnav.style.right = "500px";
+        btn3nav.style.right = "500px";
+        }
+        });
+    </script>
+
+    <script>
+    document.getElementById("featureclose-btn2").addEventListener("click", function(event) {
+    event.preventDefault();
+
+    var btn2nav = document.getElementById("btn2-nav");
+    var featureclosebtn2 = document.getElementById("featureclose-btn2");
+
+    if (btn2nav.style.right === "-500px") {
+        btn2nav.style.right = "500px";
+       
+        } else {
+        btn2nav.style.right = "-500px";
+        }
+        });
+
+    </script>
+
+
+
+
+
+        
+
+        <div class = "feature-box3">
+            <div class="features3">
+                <h1>Here to make a change</h1>
+                <div class = "features-desc3">
+                    <div class = "feature-icon3">
+                        <i class="fa fa-shield3" aria-hidden="true"></i>
+                    </div>
+                    <div class = "feature-text3"></div>
+                    <p>Fusce ultricies urna vitae vestibulum volutpat. Curabitur et hendrerit libero. Morbi tellus nisi, scelerisque ac lectus non, tempor cursus turpis. Cras tristique egestas diam eu laoreet. Quisque id odio ipsum. Morbi porttitor diam scelerisque libero efficitur, eu rutrum purus aliquet. Quisque et finibus eros.</p>
+                </div>
+            </div>
+            
+            <div class="features-img3">
+                <img src="images/change.PNG">
+            </div>
+            <div id="feature-btn3">
+                <a href="#"><b>Read More</b></a>
+            </div>
+
+
+            <div id="btn3-nav">
+                <div id="featureclose-btn3">
+                    <a href="#"><b>Back</b></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li> MEET US</li>
+                    </ul>
+                </nav>
+            </div>
+        
+            <script>
+                document.getElementById("feature-btn3").addEventListener("click", function(event) {
+                event.preventDefault();
+        
+                var btn1nav = document.getElementById("btn1-nav");
+                var btn2nav = document.getElementById("btn2-nav");
+                var btnnav = document.getElementById("btn-nav");
+                var btn3nav = document.getElementById("btn3-nav");
+                var featurebtn3 = document.getElementById("feature-btn3");
+        
+                if (btn3nav.style.right === "-500px") {
+                btn3nav.style.right = "500px";
+                featurebtn3.src = "images/1 (1).PNG";
+                } else {
+                btn3nav.style.right = "-500px";
+                // Slide out the aboutnav if it is currently open
+                btn1nav.style.right = "500px";
+                btn2nav.style.right = "500px";
+                btnnav.style.right = "500px";
+                }
+                });
+        
+            </script>
+
+    <script>
+    document.getElementById("featureclose-btn3").addEventListener("click", function(event) {
+    event.preventDefault();
+
+    var btn3nav = document.getElementById("btn3-nav");
+    var featureclosebtn3 = document.getElementById("featureclose-btn3");
+
+    if (btn3nav.style.right === "-500px") {
+        btn3nav.style.right = "500px";
+        featurebtn3.src = "images/1 (1).PNG";
+        } else {
+        btn3nav.style.right = "-500px";
+        }
+        });
+
+    </script>
+        
+
+
+
+
+
+
+        </div>
+        <div class = "randomtext"><p><b><h2>Sharing knowledge and resources. </h2><br> </b><h5> Just for you.</h5></p></div>
+
+        </section>
+
+            <!------events-->
+   
+        <section id= "event">
+         <div class="upEvents"><p><b>Upcoming Events</b> <br><h6>Swipe across to view more</h6></p></div>
+
+        <div class = "Events-box">
+            <div class="Events-scroll">
+                <img src="images/exps138239_THHC2238742B09_20_7b_WEB.jpg" alt="Image 1">
+                <div class="overlay1"></div>
+                <button class="overlay-button"><a href = "https://newperson10.github.io/Jerk-Festival/"> View Event</a></button>
+                <button class="Jerk"><h3><b>LINSTEAD ACKEE <br>AND<br> JERK FESTIVAL</b></h3></button>
+                <div class="date1"> October 16, 2023</div>
+                <img src="images/MexicanRoutes-Gastronomy-005.jpg" alt="Image 2">
+                <div class="overlay2"></div>
+                <button class="overlay-button1"><a href = "https://newperson10.github.io/Awards-Ceremony/"> View Event </a></button>
+                <button class="Jerk1"><h3>AWARDS DINNER</h3></button>
+                <div class="date2"> November 18, 2023</div>
+                <img src="images/pie.jpg" alt="Image 3">
+                <div class="overlay3"></div>
+                <button class="overlay-button2"><a href = "https://newperson10.github.io/LDAC-Concert/"> View Event </a></button>
+                <button class="Jerk2"><h3>OUR POWERFUL<br> CDC's <br>In CONCERT</h3></button>
+                <div class="date3"> December 09, 2023</div>
+            <script>
+                const Eventhorizontalscroll = document.querySelector('.Events-scroll');
+        
+            function scrollHorizontally() {
+             Eventhorizontalscroll.scrollLeft += Eventhorizontalscroll.offsetWidth;
+            }
+        
+            setInterval(scrollHorizontally, 5000);
+            </script>               
+              </div>
+            </div>
+
+            </section>
+            <section id="motivation">
+                <p><h2>Unity in diversity. <br>Engaging and inspiring.</h2><br><br> <h5> Implemented for you, by you.</h5></p>
+            </section>
+
+            <section id="CDCs">
+                <div class = "cdc"><p><b>All Community Development Committees</b></p></div>
+                <div class = "cdc1">
+                    <div class = "cdc1sqr"><p>Fusce ultricies urna vitae vestibulum volutpat. Curabitur et hendrerit libero. Morbi tellus nisi, scelerisque ac lectus non, tempor cursus turpis. Cras tristique egestas diam eu laoreet. Quisque id odio ipsum. Morbi porttitor diam scelerisque libero efficitur, eu rutrum purus aliquet. Quisque et finibus eros.</p></div>
+                    <div class = "cdc1sqr2"><p> Linstead CDC</p></div>
+                    <div class = "cdc1sqr3"><p><b> view </b></p></div>
+                    <img src="images/voice.PNG">
+                </div>
+                <div class = "cdc11">
+                    
+                <div class = "cdc2"><p> </p>
+                    <div class = "cdc2sqr"><p>Fusce ultricies urna vitae vestibulum volutpat. Curabitur et hendrerit libero. Morbi tellus nisi, scelerisque ac lectus non, tempor cursus turpis. Cras tristique egestas diam eu laoreet. Quisque id odio ipsum. Morbi porttitor diam scelerisque libero efficitur, eu rutrum purus aliquet. Quisque et finibus eros.</p></div>
+                    <div class = "cdc2sqr2"><p> Treadways CDC</p></div>
+                    <div class = "cdc2sqr3"><p> view</p></div>
+                    <img src="images/change.PNG"></div>
+                <div class = "cdc22"><p></p>
+                
+                <div class = "cdc3">
+                    <div class = "cdc3sqr"><p>Fusce ultricies urna vitae vestibulum volutpat. Curabitur et hendrerit libero. Morbi tellus nisi, scelerisque ac lectus non, tempor cursus turpis. Cras tristique egestas diam eu laoreet. Quisque id odio ipsum. Morbi porttitor diam scelerisque libero efficitur, eu rutrum purus aliquet. Quisque et finibus eros.</p></div>
+                    <div class = "cdc3sqr2"><p> Ewarton CDC</p></div>
+                    <div class = "cdc3sqr3"><p> view</p></div>
+                    <img src="images/grow.PNG"></div>
+                    <div class = "cdc33"><p></p>
+                        
+                <div class = "cdc4">
+                    <div class = "cdc4sqr"><p>Fusce ultricies urna vitae vestibulum volutpat. Curabitur et hendrerit libero. Morbi tellus nisi, scelerisque ac lectus non, tempor cursus turpis. Cras tristique egestas diam eu laoreet. Quisque id odio ipsum. Morbi porttitor diam scelerisque libero efficitur, eu rutrum purus aliquet. Quisque et finibus eros.</p></div>
+                    <div class = "cdc4sqr2"><p> Guys Hill CDC</p></div>
+                    <div class = "cdc4sqr3"><p> view</p></div>
+                    <img src="images/goals.PNG"></div>
+                    <div class = "cdc44"><p></p>
+
+                <div class = "cdc5">
+                    <div class = "cdc5sqr"><p>Fusce ultricies urna vitae vestibulum volutpat. Curabitur et hendrerit libero. Morbi tellus nisi, scelerisque ac lectus non, tempor cursus turpis. Cras tristique egestas diam eu laoreet. Quisque id odio ipsum. Morbi porttitor diam scelerisque libero efficitur, eu rutrum purus aliquet. Quisque et finibus eros.</p></div>
+                    <div class = "cdc5sqr2"><p> Liuidas Vale CDC</p></div>
+                    <div class = "cdc5sqr3"><p> view</p></div>
+                    <img src="images/voice.PNG"></div>
+                <div class = "cdc55"><p></p>
+                <div class = "cdc6">
+                    <div class = "cdc6sqr"><p>Fusce ultricies urna vitae vestibulum volutpat. Curabitur et hendrerit libero. Morbi tellus nisi, scelerisque ac lectus non, tempor cursus turpis. Cras tristique egestas diam eu laoreet. Quisque id odio ipsum. Morbi porttitor diam scelerisque libero efficitur, eu rutrum purus aliquet. Quisque et finibus eros.</p></div>
+                    <div class = "cdc6sqr2"><p> Redwood CDC</p></div>
+                    <div class = "cdc6sqr3"><p> view</p></div>
+                    <img src="images/exps138239_THHC2238742B09_20_7b_WEB.jpg"></div>
+                <div class = "cdc66"><p></p>
+
+             </section>
+
+             <section id="anything-else">
+                <p><h2>Looking For Something<br> else?</h2></p>
+
+                <div class="search1">  
+                    <form id="search1Form" onsubmit="openPage(); return false;">
+                        <input type="text" value="" id="search1-bar" placeholder="Search..." onkeyup="showSuggestions1()" onfocus= "showSuggestions()">
+                        <ul id="suggestions1"></ul>
+                        <button type="submit" id="search1-button" onclick="performSearch1()">
+                            <img src="images/icons8-search-30.png" alt="search-icon">
+                        </button>
+                        <script>
+                            var links1 = [
+                                { url: "https://newperson10.github.io/LDAC/", text: "Home" },
+                                { url: "https://newperson10.github.io/LDAC-Learn-More/", text: "Learn More" },
+                                { url: "https://example.com/example1", text: "Example 1" },
+                                { url: "https://example.com/example2", text: "Example 2" },
+                                { url: "https://example.com/example3", text: "Example 3" },
+                                { url: "https://newperson10.github.io/Jerk-Festival/", text: "Jerk Festival" },
+                                { url: "https://newperson10.github.io/LDAC-Concert/", text: "Our Powerful CDC's in Concert" },
+                                { url: "https://newperson10.github.io/Awards-Ceremony/", text: "Awards Ceremony"}
+                            ];
+                    
+                            function showSuggestions1() {
+                                var typed = document.getElementById("search1-bar").value.trim();
+                                var suggestionsContainer = document.getElementById("suggestions1");
+                    
+                                // Clear previous suggestions
+                                suggestionsContainer.innerHTML = "";
+                    
+                                // Filter links based on the typed query
+                                var filteredLinks = links1.filter(function(link) {
+                                    return link.text.toLowerCase().includes(typed.toLowerCase());
+                                });
+    
+                                var searchContainer = document.querySelector('.search1');
+                    
+                                // Display the filtered suggestions
+                                filteredLinks.forEach(function(link) {
+                                    var li = document.createElement("li");
+                                    var anchor = document.createElement("a");
+                                    anchor.href = link.url;
+                                    anchor.textContent = link.text;
+                                    li.appendChild(anchor);
+                                    suggestionsContainer.appendChild(li);
+                                });
+                             if (typed.length > 0 && document.activeElement === document.getElementById("search1-bar")) {
+                                searchContainer.classList.add('search1-bar-active');
+                                } else {
+                                searchContainer.classList.remove('search1-bar-active');
+                            
+                                }
+                            }
+                    
+                            function performSearch1() {
+                                var typed = document.getElementById("search1-bar").value.trim()
+    
+                                // Redirect to the first matching link URL
+                                var matchingLink = links1.find(function(link) {
+                                    return link.text.toLowerCase() === typed.toLowerCase();
+                                });
+                    
+                                if (matchingLink) {
+                                    window.open(matchingLink.url);
+                                }
+                            }
+                                 document.addEventListener('click', function(event) {
+                                    var suggestionsContainer = document.getElementById("suggestions1");
+    
+                                 // Check if the click target is outside the search bar and suggestions container
+                                   if (!event.target.closest('.search1') && !event.target.closest('#suggestions1')) {
+                                   suggestionsContainer.innerHTML = "";
+                                      }
+                                     });
+    
+    
+                                     function hideSuggestionsOnTouch1(event) {
+                                        var suggestionsContainer = document.getElementById("suggestions1");
+                                         var searchContainer = document.querySelector('.search1');
+    
+                                       // Check if the touch target is outside the search bar and suggestions container
+                                        if (!event.target.closest('.search1') && !event.target.closest('#suggestions1')) {
+                                        suggestionsContainer.innerHTML = "";
+                                        searchContainer.classList.remove('search1-bar-active');
+                                            }
+                                        }
+    
+                                        document.addEventListener('click', hideSuggestionsOnTouch1);
+                                        document.addEventListener('touchstart', hideSuggestionsOnTouch1);
+                                        </script>
+                                        </form>
+                </div>
+            </section>
+
+            <section id="buttons">
+                <div class="button-container">
+                <button class="navigation-button" onclick="window.location.href = 'page1.html';">Go to Page 1 and see more</button>
+                <button class="navigation-button" onclick="window.location.href = 'page2.html';">Go to Page 2</button>
+                <button class="navigation-button" onclick="window.location.href = 'page3.html';">Go to Page 3</button>
+                <button class="navigation-button" onclick="window.location.href = 'page1.html';">Go to Page 1</button>
+                <button class="navigation-button" onclick="window.location.href = 'page2.html';">Linstead Ackee and Jerk Festival</button>
+                <button class="navigation-button" onclick="window.location.href = 'page3.html';">Go to Page 3</button>
+                <button class="navigation-button" onclick="window.location.href = 'page1.html';">Go to Page 1</button>
+                <button class="navigation-button" onclick="window.location.href = 'page2.html';">Go to Page 2</button>
+                <button class="navigation-button" onclick="window.location.href = 'page3.html';">Go to Page 3</button>
+                </div>
+
+                <div class="socials"> 
+                    <h5> STAY IN THE LOOP?</h5>
+                    <button href="#"> <img src="images/facebook-app-symbol.png"> </button>
+                    <button href="#"> <img src="images/instagram.png"> </button>
+                    <button href="#"> <img src="images/share.png"> </button>
+                </div>
+                
+            </section>
+            
+    </body>
+</html>
