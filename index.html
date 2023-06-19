@@ -800,17 +800,19 @@ function scrollToTop() {
     behavior: "smooth"
   });
     
-                    var contact=document.getElementById("contactscrollToTopButton")
+                    var contact=document.getElementById("contact")
                     var contactnav=document.getElementById("contactnav")
                     var contactimg=document.getElementById("contactimg")
                     contactnav.style.right ="-500px";
 
                     if(contactnav.style.right =="-500px" ){
+                        setTimeout(function() {
                         contactnav.style.right = "185px";
                         contact.src="images/3.PNG";
                          // Slide out the aboutnav if it is currently open
                         aboutnav.style.right = "-500px";
                         aboutimg.src = "images/3.PNG";
+                     }, 1000); // Delay of 1 second (1000 milliseconds)
                     }
                     else{
                         contactnav.style.right = "-500px";
