@@ -809,7 +809,6 @@ function handleScroll() {
                     var contactnav=document.getElementById("contactnav")
                     var contactimg=document.getElementById("contactimg")
                     contactnav.style.right ="-500px";
-                contact.onclick = function(){
                     if(contactnav.style.right =="-500px" ){
                         contactnav.style.right = "185px";
                         contact.src="images/3.PNG";
@@ -821,14 +820,14 @@ function handleScroll() {
                         contactnav.style.right = "-500px";
                         contactimg.src="images/3.PNG";
                     }
-                }
+                
 
 // Attach click event listener to the "Scroll to Top" button
 document.getElementById("scrollToTopButton").addEventListener("click", scrollToTop);
 
 // Attach scroll event listener to the window
 window.addEventListener("scroll", handleScroll);
-    
+}   
 
 </script>
 
