@@ -796,16 +796,16 @@
 
 <script>
 // Function to scroll to the top of the page
-function scrollToTop() {
 var contact=document.getElementById("contact")
 var contactnav=document.getElementById("contactnav")
 var contactimg=document.getElementById("contactimg")
     contactnav.style.right ="-500px";
-    
+function scrollToTop() {
 if(contactnav.style.right =="-500px" ){
   window.scrollTo({
     top: 0,
     behavior: "smooth"
+  });
     setTimeout(function() {
     contactnav.style.right = "185px";
     contact.src="images/3.PNG";
@@ -813,14 +813,14 @@ if(contactnav.style.right =="-500px" ){
     aboutnav.style.right = "-500px";
     aboutimg.src = "images/3.PNG";
     }, 700); // Delay of 1 second (700 milliseconds)
-  });
-};
+}
 else{
     setTimeout(function() {
     contactnav.style.right = "-500px";
     contactimg.src="images/3.PNG";
     }, 300); // Delay of 1 second (700 milliseconds)
-};
+  }
+}
 </script>
 
                 </div>
