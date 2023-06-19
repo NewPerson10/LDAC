@@ -812,13 +812,21 @@ function scrollToTop() {
                          // Slide out the aboutnav if it is currently open
                         aboutnav.style.right = "-500px";
                         aboutimg.src = "images/3.PNG";
-                     }, 1000); // Delay of 1 second (1000 milliseconds)
+                     }, 700); // Delay of 1 second (700 milliseconds)
                     }
                     else{
                         contactnav.style.right = "-500px";
                         contactimg.src="images/3.PNG";
                     }
                 }
+    document.addEventListener("click", function(event) {
+  var nav = document.getElementById(contactnav);
+
+  if (!nav.contains(event.target)) {
+    nav.style.right = "-500px";
+    img.src = "images/3.PNG";
+  }
+});
 
 </script>
 
