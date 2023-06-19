@@ -801,13 +801,11 @@ function scrollToTop() {
   });
 }
     
-// Function to handle scrolling event
-contactscrollToTopButton.onclick = function(){
-  var scrollToTopButton = document.getElementById("contactscrollToTopButton");
-  var contact=document.getElementById("contact")
-  var contactnav=document.getElementById("contactnav")
-  var contactimg=document.getElementById("contactimg")
-      contactnav.style.right ="-500px";
+                    var contact=document.getElementById("contactscrollToTopButton")
+                    var contactnav=document.getElementById("contactnav")
+                    var contactimg=document.getElementById("contactimg")
+                    contactnav.style.right ="-500px";
+                contact.onclick = function(){
                     if(contactnav.style.right =="-500px" ){
                         contactnav.style.right = "185px";
                         contact.src="images/3.PNG";
@@ -819,7 +817,7 @@ contactscrollToTopButton.onclick = function(){
                         contactnav.style.right = "-500px";
                         contactimg.src="images/3.PNG";
                     }
-}
+                }
 
 </script>
 
