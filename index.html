@@ -802,14 +802,12 @@ function scrollToTop() {
 }
     
 // Function to handle scrolling event
-function handleScroll() {
+contactscrollToTopButton.onclick = function(){
   var scrollToTopButton = document.getElementById("contactscrollToTopButton");
-  var blinkingButton = document.getElementById("contact");
-                        var contact=document.getElementById("contact")
-                    var contactnav=document.getElementById("contactnav")
-                    var contactimg=document.getElementById("contactimg")
-                    contactnav.style.right ="-500px";
-    
+  var contact=document.getElementById("contact")
+  var contactnav=document.getElementById("contactnav")
+  var contactimg=document.getElementById("contactimg")
+      contactnav.style.right ="-500px";
                     if(contactnav.style.right =="-500px" ){
                         contactnav.style.right = "185px";
                         contact.src="images/3.PNG";
@@ -827,7 +825,7 @@ function handleScroll() {
 document.getElementById("scrollToTopButton").addEventListener("click", scrollToTop);
 
 // Attach scroll event listener to the window
-window.addEventListener("scroll", handleScroll);
+window.addEventListener("scroll", contactscrollToTopButton.onclick);
 }   
 
 </script>
