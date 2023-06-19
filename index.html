@@ -799,14 +799,48 @@
             <section id="buttons">
                 <div class="button-container">
                 <button class="navigation-button" onclick="window.location.href = 'page1.html';">Go to Page 1 and see more</button>
-                <button class="navigation-button" onclick="window.location.href = 'page2.html';">Go to Page 2</button>
-                <button class="navigation-button" onclick="window.location.href = 'page3.html';">Go to Page 3</button>
+                <button class="navigation-button" onclick="window.location.href = 'https://newperson10.github.io/Awards-Ceremony/';">Awards Ceremony</button>
+                <button id="contactscrollToTopButton" class="navigation-button" onclick="scrollToTop();"> Contact </button>
                 <button class="navigation-button" onclick="window.location.href = 'page1.html';">Go to Page 1</button>
                 <button class="navigation-button" onclick="window.location.href = 'https://newperson10.github.io/Jerk-Festival/';">Linstead Ackee and Jerk Festival</button>
                 <button class="navigation-button" onclick="window.location.href = 'page3.html';">Go to Page 3</button>
                 <button class="navigation-button" onclick="window.location.href = 'page1.html';">Go to Page 1</button>
-                <button class="navigation-button" onclick="window.location.href = 'page2.html';">Go to Page 2</button>
+                <button class="navigation-button" onclick="window.location.href = 'https://newperson10.github.io/LDAC-Concert/';">Our Powerful CDC's in Concert</button>
                 <button class="navigation-button" onclick="window.location.href = 'page3.html';">Go to Page 3</button>
+                
+                
+                
+                <script>
+                // Function to scroll to the top of the page
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+}
+
+// Function to handle scrolling event
+function handleScroll() {
+  var scrollToTopButton = document.getElementById("contactscrollToTopButton");
+  var blinkingButton = document.getElementById("contact");
+
+  // Check if the user has scrolled to the top of the page
+  if (window.pageYOffset === 0) {
+    // Add the "blinking" class to start the blinking animation
+    blinkingButton.classList.add("blinking");
+  } else {
+    // Remove the "blinking" class if the user scrolls away from the top
+    blinkingButton.classList.remove("blinking");
+  }
+}
+
+// Attach click event listener to the "Scroll to Top" button
+document.getElementById("scrollToTopButton").addEventListener("click", scrollToTop);
+
+// Attach scroll event listener to the window
+window.addEventListener("scroll", handleScroll);
+                </script>
+
                 </div>
 
                 <div class="socials"> 
