@@ -142,14 +142,12 @@
                         contactimg.src="images/3.PNG";
                     }
                 }
+                    
                 document.addEventListener("click", function(event) {
-  var nav = document.getElementById(contactnav);
-
-  if (!nav.contains(event.target)) {
-    nav.style.right = "-500px";
-    img.src = "images/3.PNG";
-  }
-});
+                  if (!contactnav.contains(event.target)) {
+                        contactnav.style.right = "-500px";
+                          }
+                        });
 
                 </script>
 
