@@ -442,6 +442,14 @@ document.addEventListener("click", function(event) {
         }
         });
 
+
+document.addEventListener("click", function(event) {
+  if (event.target !== featurebtn && !btn1nav.contains(event.target)) {
+    btn1nav.style.right = "-500px";
+  }
+});
+        
+        
     </script>
 
 <script>
