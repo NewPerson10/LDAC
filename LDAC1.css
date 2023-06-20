@@ -407,13 +407,13 @@ display: block; /* Show the suggestions box when search bar is active */
     border-radius: 10px;
 }
 #SideNav nav ul{
-    padding-top: 350px;
+    padding-top: 400px;
 }
 
 #SideNav nav ul li{
     
     list-style: none;
-    margin: 250px 50px;
+    margin: 220px 50px;
     
 }
 #SideNav nav ul li a{
