@@ -348,6 +348,11 @@ about.onclick = function() {
             }
             });
 
+    document.addEventListener("click", function(event) {
+  if (event.target !== feature-btn && !btn-nav.contains(event.target)) {
+    btn-nav.style.right = "-500px";
+  }
+});
         </script>
 
 <script>
@@ -431,9 +436,9 @@ about.onclick = function() {
         });
 
 
-document.addEventListener("click", function(event) {
-  if (event.target !== featurebtn && !btn1nav.contains(event.target)) {
-    btn1nav.style.right = "-500px";
+    document.addEventListener("click", function(event) {
+  if (event.target !== feature-btn1 && !btn1-nav.contains(event.target)) {
+    btn1-nav.style.right = "-500px";
   }
 });
         
@@ -516,6 +521,12 @@ document.addEventListener("click", function(event) {
         btn3nav.style.right = "500px";
         }
         });
+
+    document.addEventListener("click", function(event) {
+  if (event.target !== feature-btn2 && !btn2-nav.contains(event.target)) {
+    btn2-nav.style.right = "-500px";
+  }
+});
     </script>
 
     <script>
@@ -593,7 +604,11 @@ document.addEventListener("click", function(event) {
                 btnnav.style.right = "500px";
                 }
                 });
-        
+    document.addEventListener("click", function(event) {
+  if (event.target !== feature-btn3 && !btn3-nav.contains(event.target)) {
+    btn3-nav.style.right = "-500px";
+  }
+});
             </script>
 
     <script>
