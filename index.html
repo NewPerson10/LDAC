@@ -163,15 +163,12 @@ var aboutimg = document.getElementById("aboutimg");
 aboutnav.style.right = "-500px";
 
 about.onclick = function() {
-  if (contactnav.style.right === "-500px") {
+  if (aboutnav.style.right === "-500px") {
     aboutnav.style.right = "185px";
-    about.src = "images/3.PNG";
     // Slide out the aboutnav if it is currently open
     contactnav.style.right = "-500px";
-    contactimg.src = "images/3.PNG";
   } else {
     aboutnav.style.right = "-500px";
-    aboutimg.src = "images/3.PNG";
   }
 };
 
