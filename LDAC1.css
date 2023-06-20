@@ -179,7 +179,7 @@ display: block; /* Show the suggestions box when search bar is active */
     width: 500px;
     height: 90vh;
     right: -500px;
-    top: 35vh;
+    top: 45vh;
     background: #4ea0e4;
     z-index: 5;
     transition: 0.5s;
@@ -220,7 +220,7 @@ display: block; /* Show the suggestions box when search bar is active */
     width: 500px;
     height: 90vh;
     right: -500px;
-    top: 35vh;
+    top: 45vh;
     background: #4ea0e4;
     z-index: 5;
     transition: 0.5s;
@@ -383,7 +383,7 @@ display: block; /* Show the suggestions box when search bar is active */
     text-align: center;
     position: fixed;
     right: 60px;
-    top: 40vh;
+    top: 45vh;
     border-radius: 3px;
     z-index: 7;
     cursor: pointer;
