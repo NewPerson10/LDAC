@@ -1067,7 +1067,7 @@ border-radius: 10px;
 .randomtext{
     width: 1363px;
     height: 10vh;
-    padding-top: 10vh;
+    padding-top: 13vh;
     text-align: center;
     font-size: 350%;
 }
@@ -1493,7 +1493,7 @@ border-radius: 10px;
     position: absolute;
     width: 1363px;
     height: 950vh;
-    margin-top: 40vh;
+    margin-top: 37vh;
     z-index: -1;
     background-color: #47343407;
 }
