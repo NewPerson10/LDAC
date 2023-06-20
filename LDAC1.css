@@ -576,7 +576,7 @@ display: block; /* Show the suggestions box when search bar is active */
 }
 .features h1{
     text-align: left;
-    margin-bottom: 10px;
+    margin-top: 10px;
     font-weight: 100;
     font-size: 400%;
     padding-left: 60px;
