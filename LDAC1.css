@@ -641,7 +641,7 @@ display: block; /* Show the suggestions box when search bar is active */
 
 }
 #btn-nav h1{
-    font-size: 200%;
+    font-size: 50%;
     color: #fff;
     padding: 50px;
 }
@@ -769,7 +769,7 @@ nav ul li a{
 
 }
     #btn1-nav h1{
-    font-size: 200%;
+    font-size: 50%;
     color: #fff;
     padding: 50px;
 }
@@ -860,7 +860,7 @@ nav ul li a{
 
 }
     #btn2-nav h1{
-    font-size: 200%;
+    font-size: 50%;
     color: #fff;
     padding: 50px;
 }
@@ -951,7 +951,7 @@ nav ul li a{
 
 }
 #btn3-nav h1{
-    font-size: 200%;
+    font-size: 50%;
     color: #fff;
     padding: 50px;
 }
