@@ -133,20 +133,16 @@ contactnav.style.right = "-500px";
 contact.onclick = function() {
   if (contactnav.style.right === "-500px") {
     contactnav.style.right = "185px";
-    contact.src = "images/3.PNG";
     // Slide out the aboutnav if it is currently open
     aboutnav.style.right = "-500px";
-    aboutimg.src = "images/3.PNG";
   } else {
     contactnav.style.right = "-500px";
-    contactimg.src = "images/3.PNG";
   }
 };
 
 document.addEventListener("click", function(event) {
   if (event.target !== contact && !contactnav.contains(event.target)) {
     contactnav.style.right = "-500px";
-    contactimg.src = "images/3.PNG";
   }
 });
                 </script>
@@ -272,8 +268,15 @@ document.addEventListener("click", function(event) {
             <div class="banner-sqr"><p> </p></div>
             <div class="banner-sqr2"><p>  </p></div>
 
-            <h5> Head to bottom </h5>
-            
+            <h5 onclick="scrollTobottom();"> Head to bottom </h5>
+                                <script>
+                    function scrollTobottom() {
+                            window.scrollTo({
+                            bottom: 0,
+                            behavior: "smooth"
+                                  });
+                                }
+                    </script>
         </section>
 
 
@@ -860,8 +863,18 @@ else{
                     <a href="https://www.facebook.com/linsteaddac"> <img src="images/facebook-app-symbol.png"> </a>
                     <a href="https://instagram.com/linsteaddac?igshid=MzRlODBiNWFlZA=="> <img src="images/instagram.png"> </a>
                     <img id="shareButton" src="images/share.png">
-                    <h4 id="backtotop" onclick="scrollToTop();"><br><br>Back to top <br><br></h4>
+                    <h4 id="backtotop" onclick="scrollToTop1();"><br><br>Back to top <br><br></h4>
+                    
+                    <script>
+                    function scrollToTop1() {
+                            window.scrollTo({
+                            top: 0,
+                            behavior: "smooth"
+                                  });
+                                }
+                    </script>
                 </div>
+                
 
                 <script>
               document.getElementById("shareButton").addEventListener("click", function() {
