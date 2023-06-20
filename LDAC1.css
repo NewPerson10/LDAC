@@ -389,7 +389,6 @@ display: block; /* Show the suggestions box when search bar is active */
 #menubtn img{
     width: 120px;
     margin-top: 55px;
-    z-index: -1;
 }
 
 #SideNav{
