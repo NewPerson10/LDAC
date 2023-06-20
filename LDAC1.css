@@ -157,7 +157,7 @@ display: block; /* Show the suggestions box when search bar is active */
     width: 200px;
     height: 70px;
     top: 110%;
-    left: 780px;
+    left: 780px; 
     cursor: pointer;
 }
 #contact b{
