@@ -631,6 +631,10 @@ display: block; /* Show the suggestions box when search bar is active */
     position:absolute;
 
 }
+#btn-nav h1{
+    font-size: 150%;
+    color: #fff;
+}
 #featureclose-btn{
     margin-top: 7vh;
     margin-left: 550px;
