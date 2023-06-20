@@ -237,31 +237,20 @@ about.onclick = function() {
             </div>
 
             <script>
-var menubtn = document.getElementById("menubtn");
-var menu = document.getElementById("menu");
-var SideNav = document.getElementById("SideNav");
-SideNav.style.right = "-450px";
-
-function toggleSideNav() {
-  if (SideNav.style.right === "-450px") {
-    SideNav.style.right = "0";
-    menu.src = "images/x1.PNG";
-  } else {
-    SideNav.style.right = "-450px";
-    menu.src = "images/photo-output (3).PNG";
-  }
-}
-
-menubtn.onclick = toggleSideNav;
-menu.onclick = toggleSideNav;
-
-document.addEventListener("click", function(event) {
-  if (event.target !== menubtn && event.target !== menu && !SideNav.contains(event.target)) {
-    SideNav.style.right = "-450px";
-    menu.src = "images/photo-output (3).PNG";
-  }
-});
-
+                var menubtn=document.getElementById("menubtn")
+                var SideNav=document.getElementById("SideNav")
+                var menu=document.getElementById("menu")
+                SideNav.style.right ="-450px";
+            menubtn.onclick = function(){
+                if(SideNav.style.right =="-450px"){
+                    SideNav.style.right = "0";
+                    menu.src="images/x1.PNG";
+                }
+                else{
+                    SideNav.style.right = "-450px";
+                    menu.src="images/photo-output (3).PNG";
+                }
+            }
             </script>
             
             
