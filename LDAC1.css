@@ -159,7 +159,6 @@ display: block; /* Show the suggestions box when search bar is active */
     top: 110%;
     left: 780px;
     cursor: pointer;
-    text-align:center;
 }
 #contact b{
     position: absolute;
@@ -201,7 +200,6 @@ display: block; /* Show the suggestions box when search bar is active */
     top: 110%;
     left: 1130px; 
     cursor: pointer;
-    text-align:center;
 }
 #about b{
     position: absolute;
