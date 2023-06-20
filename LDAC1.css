@@ -147,6 +147,8 @@ display: block; /* Show the suggestions box when search bar is active */
     width: 30px;
     height: 30px;
     padding-left: 85px;
+    padding-right: 85px;
+     padding-bottom: 7px;
     padding-top: 7px;
 }
 
