@@ -166,6 +166,7 @@ display: block; /* Show the suggestions box when search bar is active */
     top: 40%;
     color: #ffffff;
     font-size: 300%;
+    z-index:-1;
 }
 #contact img{
     width: 70px;
@@ -206,6 +207,7 @@ display: block; /* Show the suggestions box when search bar is active */
     top: 40%;
     color: #ffffff;
     font-size: 300%;
+    z-index:-1;
 }
 #about img{ 
     width: 60px;
