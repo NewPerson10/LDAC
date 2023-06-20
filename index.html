@@ -221,8 +221,8 @@ about.onclick = function() {
                 </div>
             </div>
 
-            <div id = "menubtn" onclick= open() >
-                <img src="images/photo-output (3).PNG" id="menu" onclick= open() >
+            <div id = "menubtn" >
+                <img src="images/photo-output (3).PNG" id="menu">
             </div>
 
             <div id="SideNav">
@@ -251,6 +251,9 @@ about.onclick = function() {
                     menu.src="images/photo-output (3).PNG";
                 }
             }
+
+                menubtn.onclick=open;
+                menu.onclick=open;
     document.addEventListener("click", function(event) {
   if (event.target !== menubtn && !SideNav.contains(event.target)) {
     SideNav.style.right = "-500px";
