@@ -393,7 +393,7 @@ display: block; /* Show the suggestions box when search bar is active */
 
 #SideNav{
     width: 450px;
-    height: 340vh;
+    height: 350vh;
     position: fixed;
     right: -450px;
     top: 0;
