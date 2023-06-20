@@ -383,9 +383,9 @@ display: block; /* Show the suggestions box when search bar is active */
     text-align: center;
     position: fixed;
     right: 60px;
-    top: 35vh;
+    top: 38vh;
     border-radius: 3px;
-    z-index: 4;
+    z-index: 7;
     cursor: pointer;
     border-radius: 20px;
 }
