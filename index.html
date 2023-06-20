@@ -167,28 +167,28 @@ document.addEventListener("click", function(event) {
                 </div>
         
 <script>
-var contact1 = document.getElementById("contact");
-var contactnav1 = document.getElementById("contactnav");
-var contactimg1 = document.getElementById("contactimg");
-contactnav1.style.right = "-500px";
+var about = document.getElementById("about");
+var aboutnav = document.getElementById("aboutnav");
+var aboutimg = document.getElementById("aboutimg");
+aboutnav.style.right = "-500px";
 
-contact1.onclick = function() {
-  if (contactnav1.style.right === "-500px") {
-    contactnav1.style.right = "185px";
-    contact1.src = "images/3.PNG";
+about.onclick = function() {
+  if (contactnav.style.right === "-500px") {
+    aboutnav.style.right = "185px";
+    about.src = "images/3.PNG";
     // Slide out the aboutnav if it is currently open
+    contactnav.style.right = "-500px";
+    contactimg.src = "images/3.PNG";
+  } else {
     aboutnav.style.right = "-500px";
     aboutimg.src = "images/3.PNG";
-  } else {
-    contactnav1.style.right = "-500px";
-    contactimg1.src = "images/3.PNG";
   }
 };
 
 document.addEventListener("click", function(event) {
-  if (event.target !== contact1 && !contactnav1.contains(event.target)) {
-    contactnav1.style.right = "-500px";
-    contactimg1.src = "images/3.PNG";
+  if (event.target !== about && !aboutnav.contains(event.target)) {
+    aboutnav.style.right = "-500px";
+    aboutimg.src = "images/3.PNG";
   }
 });
 
@@ -261,8 +261,7 @@ document.addEventListener("click", function(event) {
             }
                 document.addEventListener("click", function(event) {
   if (event.target !== menubtn && !SideNav.contains(event.target)) {
-    contactnav1.style.right = "-500px";
-    contactimg1.src = "images/3.PNG";
+    SideNav.style.right = "-450px";
   }
 });
 
