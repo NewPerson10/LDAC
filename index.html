@@ -139,12 +139,6 @@ contact.onclick = function() {
     contactnav.style.right = "-500px";
   }
 };
-
-document.addEventListener("click", function(event) {
-  if (event.target !== contact && !contactnav.contains(event.target)) {
-    contactnav.style.right = "-500px";
-  }
-});
                 </script>
 
 
@@ -180,13 +174,6 @@ about.onclick = function() {
     aboutimg.src = "images/3.PNG";
   }
 };
-
-document.addEventListener("click", function(event) {
-  if (event.target !== about && !aboutnav.contains(event.target)) {
-    aboutnav.style.right = "-500px";
-    aboutimg.src = "images/3.PNG";
-  }
-});
 
                 </script>
 
@@ -255,11 +242,6 @@ document.addEventListener("click", function(event) {
                     menu.src="images/photo-output (3).PNG";
                 }
             }
-                document.addEventListener("click", function(event) {
-  if (event.target !== menubtn && !SideNav.contains(event.target)) {
-    SideNav.style.right = "-450px";
-  }
-});
 
             </script>
             
@@ -267,15 +249,6 @@ document.addEventListener("click", function(event) {
             <div class="banner-sqr"><p> </p></div>
             <div class="banner-sqr2"><p>  </p></div>
 
-            <h5 onclick="scrollTobottom();"> Head to bottom </h5>
-                                <script>
-                    function scrollTobottom() {
-                            window.scrollTo({
-                            bottom: 0,
-                            behavior: "smooth"
-                                  });
-                                }
-                    </script>
         </section>
 
 
