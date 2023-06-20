@@ -304,7 +304,7 @@ about.onclick = function() {
 
 
             <div id="feature-btn">
-                <a href="#"><b>Read More</b></a>
+                <a onclick="darkenBackground()"><b>Read More</b></a>
             </div>
         </div>
 
@@ -337,6 +337,10 @@ about.onclick = function() {
              btn3nav.style.right = "500px";
             }
             });
+function darkenBackground() {
+  var overlay = document.getElementById("overlay");
+  overlay.style.display = "block";
+}
 
         </script>
 
