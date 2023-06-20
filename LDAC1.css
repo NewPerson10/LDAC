@@ -443,10 +443,6 @@ display: block; /* Show the suggestions box when search bar is active */
     border-radius: 40px;
     display: none;
 }
-    h4{
-        color: #fff;
-        text-align: center;
-        margin-top: 245vh;
         
 
 /*--features--*/
