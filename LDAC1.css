@@ -768,6 +768,11 @@ nav ul li a{
     position:absolute;
 
 }
+    #btn1-nav h1{
+    font-size: 200%;
+    color: #fff;
+    padding: 50px;
+}
 #featureclose-btn1{
     margin-top: 7vh;
     margin-left: 550px;
@@ -853,6 +858,11 @@ nav ul li a{
     border-radius: 50px;
     position:absolute;
 
+}
+    #btn2-nav h1{
+    font-size: 200%;
+    color: #fff;
+    padding: 50px;
 }
 #featureclose-btn2{
     margin-top: 7vh;
@@ -940,7 +950,11 @@ nav ul li a{
     position:absolute;
 
 }
-
+#btn3-nav h1{
+    font-size: 200%;
+    color: #fff;
+    padding: 50px;
+}
 #featureclose-btn3{
     margin-top: 7vh;
     margin-left: 550px;
