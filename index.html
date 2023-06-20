@@ -140,9 +140,9 @@ contact.onclick = function() {
   }
 };
 
-                    document.addEventListener("click", function(event) {
+    document.addEventListener("click", function(event) {
   if (event.target !== contact && !contactnav.contains(event.target)) {
-    contactnav.style.right = "500px";
+    contactnav.style.right = "-500px";
   }
 });
 
