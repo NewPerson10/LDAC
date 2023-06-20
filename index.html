@@ -253,6 +253,13 @@ document.addEventListener("click", function(event) {
                     menu.src="images/photo-output (3).PNG";
                 }
             }
+                document.addEventListener("click", function(event) {
+  if (event.target !== menubtn && !SideNav.contains(event.target)) {
+    contactnav1.style.right = "-500px";
+    contactimg1.src = "images/3.PNG";
+  }
+});
+
             </script>
             
             
