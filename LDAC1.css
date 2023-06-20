@@ -383,7 +383,7 @@ display: block; /* Show the suggestions box when search bar is active */
     text-align: center;
     position: fixed;
     right: 60px;
-    top: 38vh;
+    top: 40vh;
     border-radius: 3px;
     z-index: 7;
     cursor: pointer;
