@@ -155,7 +155,7 @@ display: block; /* Show the suggestions box when search bar is active */
 #contact{
     position: absolute;
     width: 200px;
-    height: 100px;
+    height: 70px;
     top: 110%;
     left: 780px;
     cursor: pointer;
@@ -197,7 +197,7 @@ display: block; /* Show the suggestions box when search bar is active */
 #about{
     position: absolute;
     width: 200px;
-    height: 100px;
+    height: 70px;
     top: 110%;
     left: 1130px; 
     cursor: pointer;
