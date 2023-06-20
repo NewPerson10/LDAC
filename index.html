@@ -125,23 +125,31 @@
                 </div>
         
                 <script>
-                    var contact=document.getElementById("contact")
-                    var contactnav=document.getElementById("contactnav")
-                    var contactimg=document.getElementById("contactimg")
-                    contactnav.style.right ="-500px";
-                contact.onclick = function(){
-                    if(contactnav.style.right =="-500px" ){
-                        contactnav.style.right = "185px";
-                        contact.src="images/3.PNG";
-                         // Slide out the aboutnav if it is currently open
-                        aboutnav.style.right = "-500px";
-                        aboutimg.src = "images/3.PNG";
-                    }
-                    else{
-                        contactnav.style.right = "-500px";
-                        contactimg.src="images/3.PNG";
-                    }
-                }
+var contact1 = document.getElementById("contact");
+var contactnav1 = document.getElementById("contactnav");
+var contactimg1 = document.getElementById("contactimg");
+contactnav1.style.right = "-500px";
+
+contact1.onclick = function() {
+  if (contactnav1.style.right === "-500px") {
+    contactnav1.style.right = "185px";
+    contact1.src = "images/3.PNG";
+    // Slide out the aboutnav if it is currently open
+    aboutnav.style.right = "-500px";
+    aboutimg.src = "images/3.PNG";
+  } else {
+    contactnav1.style.right = "-500px";
+    contactimg1.src = "images/3.PNG";
+  }
+};
+
+document.addEventListener("click", function(event) {
+  if (event.target !== contact1 && !contactnav1.contains(event.target)) {
+    contactnav1.style.right = "-500px";
+    contactimg1.src = "images/3.PNG";
+  }
+});
+
 
                 </script>
 
