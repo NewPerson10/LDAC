@@ -152,8 +152,8 @@ display: block; /* Show the suggestions box when search bar is active */
 
 #contact{
     position: absolute;
-    width: 190px;
-    height: 70px;
+    width: 300px;
+    height: 100px;
     top: 110%;
     left: 780px;
     cursor: pointer;
