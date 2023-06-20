@@ -634,6 +634,7 @@ display: block; /* Show the suggestions box when search bar is active */
 #btn-nav h1{
     font-size: 150%;
     color: #fff;
+    padding: 50px;
 }
 #featureclose-btn{
     margin-top: 7vh;
