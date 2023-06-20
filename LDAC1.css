@@ -154,12 +154,12 @@ display: block; /* Show the suggestions box when search bar is active */
 
 #contact{
     position: absolute;
-    width: 300px;
+    width: 200px;
     height: 100px;
     top: 110%;
     left: 780px;
     cursor: pointer;
-    
+    text-align:center;
 }
 #contact b{
     position: absolute;
@@ -196,11 +196,12 @@ display: block; /* Show the suggestions box when search bar is active */
 
 #about{
     position: absolute;
-    width: 150px;
-    height: 45px;
+    width: 200px;
+    height: 100px;
     top: 110%;
     left: 1130px; 
     cursor: pointer;
+    text-align:center;
 }
 #about b{
     position: absolute;
