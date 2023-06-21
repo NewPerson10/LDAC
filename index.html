@@ -10,6 +10,7 @@
 
 
     <body>
+        <div id="background"></div>
         <section id="BACK">
 
         </section>
@@ -304,7 +305,7 @@ about.onclick = function() {
 
 
             <div id="feature-btn">
-                <a onclick="darkenBackground()"><b>Read More</b></a>
+                <a><b>Read More</b></a>
             </div>
         </div>
 
@@ -337,10 +338,6 @@ about.onclick = function() {
              btn3nav.style.right = "500px";
             }
             });
-function darkenBackground() {
-  var overlay = document.getElementById("overlay");
-  overlay.style.display = "block";
-}
 
         </script>
 
@@ -404,17 +401,17 @@ function darkenBackground() {
         var background = document.getElementById("background");
 
         if (btn1nav.style.right === "-500px") {
-        background.classList.add("darken-background");
         btn1nav.style.right = "500px";
-
+        background.style.display = "block";
         
         } else {
         btn1nav.style.right = "-500px";
         // Slide out the aboutnav if it is currently open
+        background.style.display = "none";
         btnnav.style.right = "500px";
         btn2nav.style.right = "500px";
         btn3nav.style.right = "500px";
-        background.classList.remove("darken-background");
+
         }
         });
 
@@ -432,7 +429,7 @@ function darkenBackground() {
         btn1nav.style.right = "500px";
         } else {
         btn1nav.style.right = "-500px";
-        background.classList.remove("darken-background");
+        background.style.display = "none";
         }
         });
 
@@ -510,7 +507,7 @@ function darkenBackground() {
         });
 
     </script>
- <div id="background"></div>
+
 
 
 
