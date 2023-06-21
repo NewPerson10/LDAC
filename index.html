@@ -325,13 +325,14 @@ about.onclick = function() {
             var btn2nav = document.getElementById("btn2-nav");
             var btn3nav = document.getElementById("btn3-nav");
             var featurebtn = document.getElementById("feature-btn");
+            var background = document.getElementById("background");
 
             if (btnnav.style.right === "-500px") {
             btnnav.style.right = "500px";
-
+            background.classList.remove("darken-background");     
             } else {
             btnnav.style.right = "-500px";
-
+            background.classList.add("darken-background");     
             // Slide out the aboutnav if it is currently open
              btn1nav.style.right = "500px";
              btn2nav.style.right = "500px";
@@ -347,9 +348,11 @@ about.onclick = function() {
 
     var btnnav = document.getElementById("btn-nav");
     var featureclosebtn = document.getElementById("featureclose-btn");
+    var background = document.getElementById("background");
 
     if (btnnav.style.right === "-500px") {
         btnnav.style.right = "500px";
+        background.classList.remove("darken-background");     
         
         } else {
         btnnav.style.right = "-500px";
@@ -357,6 +360,12 @@ about.onclick = function() {
         });
 
     </script>
+    <div id="background"></div>
+
+
+
+
+         
 <div class = "feature-box1">
             <div class="features1">
                 <h1>Help each other grow</h1>
@@ -398,7 +407,7 @@ about.onclick = function() {
         var btn3nav = document.getElementById("btn3-nav");
         var btn1nav = document.getElementById("btn1-nav");
         var featurebtn = document.getElementById("feature-btn1");
-        var background = document.getElementById("background");
+        var background = document.getElementById("background1");
 
         if (btn1nav.style.right === "-500px") {
         btn1nav.style.right = "500px";
@@ -421,7 +430,7 @@ about.onclick = function() {
 
     var btn1nav = document.getElementById("btn1-nav");
     var featureclosebtn1 = document.getElementById("featureclose-btn");
-    var background = document.getElementById("background");
+    var background = document.getElementById("background1");
 
     if (btn1nav.style.right === "-500px") {
         btn1nav.style.right = "500px";
@@ -433,7 +442,7 @@ about.onclick = function() {
         });
 
     </script>
-<div id="background"></div>
+<div id="background1"></div>
 
 
 
@@ -476,12 +485,14 @@ about.onclick = function() {
         var btn3nav = document.getElementById("btn3-nav");
         var btn2nav = document.getElementById("btn2-nav");
         var featurebtn2 = document.getElementById("feature-btn2");
+        var background = document.getElementById("background2");
 
         if (btn2nav.style.right === "-500px") {
         btn2nav.style.right = "500px";
-      
+        background.classList.remove("darken-background");     
         } else {
         btn2nav.style.right = "-500px";
+        background.classList.add("darken-background");     
         // Slide out the aboutnav if it is currently open
         btn1nav.style.right = "500px";
         btnnav.style.right = "500px";
@@ -496,17 +507,18 @@ about.onclick = function() {
 
     var btn2nav = document.getElementById("btn2-nav");
     var featureclosebtn2 = document.getElementById("featureclose-btn2");
+    var background = document.getElementById("background2");
 
     if (btn2nav.style.right === "-500px") {
         btn2nav.style.right = "500px";
-       
+        background.classList.remove("darken-background");     
         } else {
         btn2nav.style.right = "-500px";
         }
         });
 
     </script>
-
+<div id="background2"></div>
 
 
 
@@ -549,12 +561,14 @@ about.onclick = function() {
                 var btnnav = document.getElementById("btn-nav");
                 var btn3nav = document.getElementById("btn3-nav");
                 var featurebtn3 = document.getElementById("feature-btn3");
+                var background = document.getElementById("background3");
         
                 if (btn3nav.style.right === "-500px") {
                 btn3nav.style.right = "500px";
-                featurebtn3.src = "images/1 (1).PNG";
+                background.classList.remove("darken-background");     
                 } else {
                 btn3nav.style.right = "-500px";
+                background.classList.add("darken-background");     
                 // Slide out the aboutnav if it is currently open
                 btn1nav.style.right = "500px";
                 btn2nav.style.right = "500px";
@@ -570,16 +584,18 @@ about.onclick = function() {
 
     var btn3nav = document.getElementById("btn3-nav");
     var featureclosebtn3 = document.getElementById("featureclose-btn3");
+    var background = document.getElementById("background3");
 
     if (btn3nav.style.right === "-500px") {
         btn3nav.style.right = "500px";
-        featurebtn3.src = "images/1 (1).PNG";
+        background.classList.remove("darken-background");     
         } else {
         btn3nav.style.right = "-500px";
         }
         });
 
     </script>
+    <div id="background3"></div>
 
         
 
