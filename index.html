@@ -402,17 +402,14 @@ about.onclick = function() {
 
         if (btn1nav.style.right === "-500px") {
         btn1nav.style.right = "500px";
-        background.style.display = "block";
-        background.classList.add("darken-background");
-        
+        background.classList.remove("darken-background");        
         } else {
         btn1nav.style.right = "-500px";
         // Slide out the aboutnav if it is currently open
-        background.style.display = "none";
         btnnav.style.right = "500px";
         btn2nav.style.right = "500px";
         btn3nav.style.right = "500px";
-        background.classList.remove("darken-background");
+        background.classList.add("darken-background");
         }
         });
 
@@ -428,10 +425,10 @@ about.onclick = function() {
 
     if (btn1nav.style.right === "-500px") {
         btn1nav.style.right = "500px";
+        background.classList.remove("darken-background");     
         } else {
         btn1nav.style.right = "-500px";
-        background.style.display = "none";
-        background.classList.remove("darken-background");
+
         }
         });
 
