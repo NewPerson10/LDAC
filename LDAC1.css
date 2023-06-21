@@ -624,7 +624,7 @@ display: block; /* Show the suggestions box when search bar is active */
     right: 500px;
     top: 280vh;
     background: #4ea0e4;
-    z-index: 5;
+    z-index: 6;
     transition: 0.5s;
     text-align: left;
     border-radius: 50px;
@@ -852,7 +852,7 @@ nav ul li a{
     right: 500px;
     top: 440vh;
     background: #4ea0e4;
-    z-index: 5;
+    z-index: 6;
     transition: 0.5s;
     text-align: left;
     border-radius: 50px;
@@ -943,7 +943,7 @@ nav ul li a{
     right: 500px;
     top: 520vh;
     background: #4ea0e4;
-    z-index: 5;
+    z-index: 6;
     transition: 0.5s;
     text-align: left;
     border-radius: 50px;
