@@ -750,13 +750,13 @@ nav ul li a{
     width: 850px;
     height: 250vh;
     right: 500px;
-    top: 280vh;
+    top: 360vh;
     background: #4ea0e4;
     z-index: 6;
     transition: 0.5s;
     text-align: left;
     border-radius: 50px;
-    position:fixed;
+    position:absolute;
 
 }
     #btn1-nav h1{
