@@ -796,13 +796,15 @@ nav ul li a{
     background-color: #ffffff;
     border-radius: 10px;
 }
-    .darken-background {
+.darken-background {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency and color as needed */
+    z-index: 9999; /* Ensure the darkened background is on top */
+}
 
 nav ul{
     padding-top: 350px;
