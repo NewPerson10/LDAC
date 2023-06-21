@@ -551,7 +551,7 @@ display: block; /* Show the suggestions box when search bar is active */
 
 .feature-box{
     width: 90%;
-    height: 80vh;
+    height: 100vh;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -684,7 +684,7 @@ nav ul li a{
   .feature-box1{
     width: 90%;
     margin: auto;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -1018,7 +1018,7 @@ nav ul li a{
 
 .feature-box2{
     width: 90%;
-    height: 80vh;
+    height: 100vh;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -1061,7 +1061,7 @@ nav ul li a{
 .feature-box3{
     width: 90%;
     margin: auto;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
