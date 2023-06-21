@@ -405,8 +405,9 @@ function darkenBackground() {
         var background = document.getElementById("background");
 
         if (btn1nav.style.right === "-500px") {
-        btn1nav.style.right = "500px";
         background.classList.add("darken-background");
+        btn1nav.style.right = "500px";
+
         
         } else {
         btn1nav.style.right = "-500px";
