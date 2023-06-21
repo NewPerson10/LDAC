@@ -637,7 +637,7 @@ display: block; /* Show the suggestions box when search bar is active */
     padding: 50px;
 }
 #featureclose-btn{
-    margin-top: 245vh;
+    margin-top: 7vh;
     margin-left: 550px;
     width: 200px;
     height: 5vh;
@@ -765,7 +765,7 @@ nav ul li a{
     padding: 50px;
 }
 #featureclose-btn1{
-    margin-top: 245vh;
+    margin-top: 7vh;
     margin-left: 550px;
     width: 200px;
     height: 5vh;
@@ -865,7 +865,7 @@ nav ul li a{
     padding: 50px;
 }
 #featureclose-btn2{
-    margin-top: 245vh;
+    margin-top: 7vh;
     margin-left: 550px;
     width: 200px;
     height: 5vh;
@@ -956,7 +956,7 @@ nav ul li a{
     padding: 50px;
 }
 #featureclose-btn3{
-    margin-top: 245vh;
+    margin-top: 7vh;
     margin-left: 550px;
     width: 200px;
     height: 5vh;
