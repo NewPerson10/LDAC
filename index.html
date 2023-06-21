@@ -403,6 +403,7 @@ about.onclick = function() {
         if (btn1nav.style.right === "-500px") {
         btn1nav.style.right = "500px";
         background.style.display = "block";
+        background.classList.add("darken-background");
         
         } else {
         btn1nav.style.right = "-500px";
@@ -411,7 +412,7 @@ about.onclick = function() {
         btnnav.style.right = "500px";
         btn2nav.style.right = "500px";
         btn3nav.style.right = "500px";
-
+        background.classList.remove("darken-background");
         }
         });
 
@@ -430,6 +431,7 @@ about.onclick = function() {
         } else {
         btn1nav.style.right = "-500px";
         background.style.display = "none";
+        background.classList.remove("darken-background");
         }
         });
 
