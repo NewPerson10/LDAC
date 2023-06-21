@@ -346,6 +346,12 @@ about.onclick = function() {
             }
             });
 
+    document.addEventListener("click", function(event) {
+  if (event.target !== btnnav) {
+    btnnav.style.right = "500px";
+  }
+});
+
         </script>
 
 <script>
