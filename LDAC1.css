@@ -401,7 +401,7 @@ display: block; /* Show the suggestions box when search bar is active */
     right: -450px;
     top: 0;
     background: #357acee7;
-    z-index: 4;
+    z-index: 6;
     transition: 0.5s;
     text-align: left;
     border-radius: 10px;
