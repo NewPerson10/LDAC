@@ -189,9 +189,11 @@ display: block; /* Show the suggestions box when search bar is active */
     font-size: 230%;
 
 }
-
-
-
+    #contactnav p{
+    font-size: 200%;
+    color: #fff;
+    padding: 50px;
+}
 
 #about{
     position: absolute;
@@ -228,9 +230,12 @@ display: block; /* Show the suggestions box when search bar is active */
     font-size: 230%;
     border-radius: 50px;
     position: fixed;
-
 }
-
+#aboutnav p{
+    font-size: 200%;
+    color: #fff;
+    padding: 50px;
+}
 
 
 
@@ -485,7 +490,6 @@ display: block; /* Show the suggestions box when search bar is active */
 }
 
 .title-text h1{
-   
     padding-top: 1%;
     font-size: 500%;
 }
