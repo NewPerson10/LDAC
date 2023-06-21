@@ -620,7 +620,6 @@ display: block; /* Show the suggestions box when search bar is active */
 
   #btn-nav{
     width: 850px;
-    height: 260vh;
     right: 500px;
     top: 280vh;
     background: #4ea0e4;
@@ -635,6 +634,11 @@ display: block; /* Show the suggestions box when search bar is active */
     font-size: 200%;
     color: #fff;
     padding: 50px;
+}
+#btn-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 #featureclose-btn{
     margin-top: 7vh;
@@ -748,7 +752,6 @@ nav ul li a{
 
   #btn1-nav{
     width: 850px;
-    height: 250vh;
     right: 500px;
     top: 360vh;
     background: #4ea0e4;
@@ -763,6 +766,11 @@ nav ul li a{
     font-size: 200%;
     color: #fff;
     padding: 50px;
+}
+    #btn1-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 #featureclose-btn1{
     margin-top: 7vh;
@@ -848,7 +856,6 @@ nav ul li a{
 
 #btn2-nav{
     width: 850px;
-    height: 280vh;
     right: 500px;
     top: 440vh;
     background: #4ea0e4;
@@ -863,6 +870,11 @@ nav ul li a{
     font-size: 200%;
     color: #fff;
     padding: 50px;
+}
+    #btn2-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 #featureclose-btn2{
     margin-top: 7vh;
@@ -939,7 +951,6 @@ nav ul li a{
 
   #btn3-nav{
     width: 850px;
-    height: 280vh;
     right: 500px;
     top: 520vh;
     background: #4ea0e4;
@@ -954,6 +965,11 @@ nav ul li a{
     font-size: 200%;
     color: #fff;
     padding: 50px;
+}
+    #btn3-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 #featureclose-btn3{
     margin-top: 7vh;
