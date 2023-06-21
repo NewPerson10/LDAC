@@ -620,7 +620,7 @@ display: block; /* Show the suggestions box when search bar is active */
 
   #btn-nav{
     width: 850px;
-    height: 120vh;
+    height: 260vh;
     right: 500px;
     top: 280vh;
     background: #4ea0e4;
