@@ -401,9 +401,11 @@ function darkenBackground() {
         var btn3nav = document.getElementById("btn3-nav");
         var btn1nav = document.getElementById("btn1-nav");
         var featurebtn = document.getElementById("feature-btn1");
+        var background = document.getElementById("background");
 
         if (btn1nav.style.right === "-500px") {
         btn1nav.style.right = "500px";
+        background.classList.add("darken-background");
         
         } else {
         btn1nav.style.right = "-500px";
@@ -411,6 +413,7 @@ function darkenBackground() {
         btnnav.style.right = "500px";
         btn2nav.style.right = "500px";
         btn3nav.style.right = "500px";
+        background.classList.remove("darken-background");
         }
         });
 
@@ -422,11 +425,13 @@ function darkenBackground() {
 
     var btn1nav = document.getElementById("btn1-nav");
     var featureclosebtn1 = document.getElementById("featureclose-btn");
+    var background = document.getElementById("background");
 
     if (btn1nav.style.right === "-500px") {
         btn1nav.style.right = "500px";
         } else {
         btn1nav.style.right = "-500px";
+        background.classList.remove("darken-background");
         }
         });
 
