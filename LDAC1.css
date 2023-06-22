@@ -1210,6 +1210,9 @@ border-radius: 10px;
     border-radius: 30px;
     color: #000;
 }
+.upEvents h6{
+    font-size: 70%
+}
 
 
 .swipe{
