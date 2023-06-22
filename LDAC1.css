@@ -2332,6 +2332,13 @@ border-radius: 10px;
     height: 100px;
     background-color: #3591ce00;
 }
+.socials button{
+    background-color: #00000000;
+    border: 1px solid black;
+    border-color: #fff;
+    width: 30px;
+    height: 30px;
+}
 .socials a{
    background-color: #3591ce00;
 }
