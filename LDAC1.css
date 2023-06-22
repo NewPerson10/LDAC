@@ -177,7 +177,6 @@ background-color: #0045bb;
 
 #contactnav{
     width: 500px;
-    height: 90vh;
     right: -500px;
     top: 45vh;
     background: #4ea0e4;
@@ -187,16 +186,15 @@ background-color: #0045bb;
     border-radius: 50px;
     position: fixed;
     font-size: 230%;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
     #contactnav p{
     font-size: 120%;
     color: #fff;
     padding: 50px;
     font-weight: bolder;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
 }
 
 #about{
@@ -224,7 +222,6 @@ background-color: #0045bb;
 
 #aboutnav{
     width: 500px;
-    height: 90vh;
     right: -500px;
     top: 45vh;
     background: #4ea0e4;
