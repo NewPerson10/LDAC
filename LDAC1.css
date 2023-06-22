@@ -232,6 +232,7 @@ background-color: #0045bb;
     transition: 0.5s;
     text-align: left;
     font-size: 230%;
+    font-weight: bolder;
     border-radius: 50px;
     position: fixed;
     display: flex;
