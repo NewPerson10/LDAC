@@ -190,7 +190,7 @@ display: block; /* Show the suggestions box when search bar is active */
 
 }
     #contactnav p{
-    font-size: 200%;
+    font-size: 100%;
     color: #fff;
     padding: 50px;
 }
@@ -232,7 +232,7 @@ display: block; /* Show the suggestions box when search bar is active */
     position: fixed;
 }
 #aboutnav p{
-    font-size: 200%;
+    font-size: 100%;
     color: #fff;
     padding: 50px;
 }
