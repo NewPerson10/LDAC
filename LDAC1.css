@@ -126,7 +126,7 @@ background-color: #0045bb;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-display: block; /* Show the suggestions box when search bar is active */
+    display: block; /* Show the suggestions box when search bar is active */
 }
 
 .sign-in{
@@ -194,6 +194,9 @@ display: block; /* Show the suggestions box when search bar is active */
     color: #fff;
     padding: 50px;
     font-weight: bolder;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 #about{
@@ -231,6 +234,9 @@ display: block; /* Show the suggestions box when search bar is active */
     font-size: 230%;
     border-radius: 50px;
     position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 #aboutnav p{
     font-size: 110%;
