@@ -193,6 +193,7 @@ display: block; /* Show the suggestions box when search bar is active */
     font-size: 120%;
     color: #fff;
     padding: 50px;
+    font-weight: bolder;
 }
 
 #about{
