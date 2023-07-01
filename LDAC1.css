@@ -2373,7 +2373,7 @@ border-radius: 10px;
 }
 .footer{ 
     width: 1303px; 
-    height: 1300px;
+    height: 1400px;
     background-color: #0045bb00;
     margin-top: 150px;
     border-radius: 50px;
@@ -2388,6 +2388,11 @@ border-radius: 10px;
     margin-left: 150px;
     opacity: 0.9;
     margin-top: 100px;
+    border: 1px solid black;
+}
+#footerimg{
+    padding: 30px;
+    border-color: #0045bb78;
 }
 #globe{
     position: absolute;
@@ -2433,6 +2438,7 @@ border-radius: 10px;
     color: #000000;
     font-weight: bold;
 }
+
 } 
 
 
