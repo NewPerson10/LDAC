@@ -423,7 +423,7 @@ background-color: #0045bb;
 #SideNav nav ul li{
     
     list-style: none;
-    margin: 220px 100px;
+    margin: 200px 50px;
     
 }
 #SideNav nav ul li a{
@@ -570,6 +570,7 @@ background-color: #0045bb;
     border-color: #025dcda0;
     border-radius: 20px;
     padding-left: 20px;
+    margin-bottom:20px;
 }
 .features{
     flex-basis: 50%;
@@ -702,6 +703,7 @@ nav ul li a{
     border-color: #025dcda0;
     border-radius: 20px;
     padding-left: 20px;
+    margin-bottom:20px;
 }
 .features1{
     flex-basis: 50%;
@@ -1037,6 +1039,7 @@ nav ul li a{
     border-color: #025dcda0;
     border-radius: 20px;
     padding-left: 20px;
+    margin-bottom:20px;
 }
 .features2{
     flex-basis: 50%;
@@ -1079,6 +1082,7 @@ nav ul li a{
     border-color: #025dcda0;
     border-radius: 20px;
     padding-left: 20px;
+    margin-bottom:20px;
 }
 .features3{
     flex-basis: 50%;
@@ -1123,7 +1127,7 @@ border-radius: 10px;
 .randomtext{
     width: 1363px;
     height: 10vh;
-    padding-top: 13vh;
+    padding-top: 500px;
     text-align: center;
     font-size: 350%;
 }
@@ -1136,7 +1140,7 @@ border-radius: 10px;
     height: 2000px;
     position: absolute;
     padding-top: 0vh;
-    margin-top: 500px;
+    margin-top: 1400px;
 }
 
 .Events-box{
@@ -1146,7 +1150,6 @@ border-radius: 10px;
         border: 1px solid black;
         border-radius: 30px;
         margin-left: 31.5px;
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 .Events-scroll{
     width: 1300px;
@@ -1181,7 +1184,6 @@ border-radius: 10px;
     border-radius: 50px;
     margin-right: 100px;
     margin-left: 100px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 .overlay1{
     width: 1100px;
@@ -1208,9 +1210,12 @@ border-radius: 10px;
     color: #000;
 }
 .upEvents h6{
-    font-size: 70%
+    padding-top: 30px;
+    font-size: 40%
 }
-
+.Events-scroll::-webkit-scrollbar{
+    display: none; /* For Chrome, Safari, and Opera */
+  }
 
 .swipe{
     position: absolute;
@@ -1535,7 +1540,7 @@ border-radius: 10px;
 }
 
 #motivation{
-    margin-top: 350vh;
+    margin-top: 4000px;
     width: 1363px;
     text-align: center;
 }
@@ -1550,11 +1555,13 @@ border-radius: 10px;
 
 #CDCs{
     position: absolute;
-    width: 1363px;
+    width: 1323px;
     height: 950vh;
-    margin-top: 37vh;
+    margin-top: 500px;
     z-index: -1;
     background-color: #47343407;
+    border-radius: 200px;
+    margin-left: 20px;
 }
 .cdc{
     width: 1000px;
@@ -1571,36 +1578,36 @@ border-radius: 10px;
 .cdc1{
     width: 1100px;
     height: 80vh;
-    background-color: #5488e91a;
+    background-color: #5488e900;
     left: 10%;
     top: 70vh;
     position: absolute;
     border-radius: 20px;
 }
 .cdc1sqr p{
-    width: 970px;
+    width: 1100px;
     height: 50vh;
-    left: 3%;
+    left: 0%;
     top: 60vh;
     position: absolute;
     border-radius: 20px;
     border: 1px solid black;
-    border-color: #5488e988;
+    border-color: #5488e900;
     text-align: center;
     padding-top: 20px;
-    font-size: 200%;
-    padding: 30px;
+    font-size: 240%;
+
 }
 .cdc1sqr2 p{
     width: 700px;
     height: 20px;
-    left: 10%;
-    top: 101vh;
+    left: 3%;
+    top: 107vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
     text-align: left;
-    font-size: 400%;
+    font-size: 500%;
     padding-right: 10px;
     font-weight: bolder;
     color: #4ea0e4;
@@ -1608,8 +1615,8 @@ border-radius: 10px;
 .cdc1sqr3 p{
     width: 300px;
     height: 70px;
-    left: 65%;
-    top: 100vh;
+    left: 70%;
+    top: 105vh;
     position: absolute;
     border-radius: 30px;
     text-align: center;
@@ -1654,7 +1661,7 @@ border-radius: 10px;
 }
 .cdc11{
     width: 1175px;
-    height: 100vh;
+    height: 1100px;
     left: 7%;
     top: 65vh;
     position: absolute;
@@ -1676,36 +1683,35 @@ border-radius: 10px;
 .cdc2{
     width: 1100px;
     height: 80vh;
-    background-color: #5488e91a;
+    background-color: #5488e900;
     left: 3.5%;
     top: 150vh;
     position: absolute;
     border-radius: 20px;
 }
 .cdc2sqr p{
-    width: 970px;
+    width: 1100px;
     height: 50vh;
-    left: 3%;
+    left: 0%;
     top: 60vh;
     position: absolute;
     border-radius: 20px;
     border: 1px solid black;
-    border-color: #5488e988;
+    border-color: #5488e900;
     text-align: center;
     padding-top: 20px;
-    font-size: 200%;
-    padding: 30px;
+    font-size: 240%;
 }
 .cdc2sqr2 p{
     width: 700px;
     height: 20px;
-    left: 10%;
-    top: 101vh;
+    left: 3%;
+    top: 107vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
     text-align: left;
-    font-size: 400%;
+    font-size: 500%;
     padding-right: 10px;
     font-weight: bolder;
     color: #4ea0e4;
@@ -1713,8 +1719,8 @@ border-radius: 10px;
 .cdc2sqr3 p{
     width: 300px;
     height: 70px;
-    left: 65%;
-    top: 100vh;
+    left: 70%;
+    top: 105vh;
     position: absolute;
     border-radius: 30px;
     text-align: center;
@@ -1759,7 +1765,7 @@ border-radius: 10px;
 }
 .cdc22{
     width: 1175px;
-    height: 100vh;
+    height: 1100px;
     left: 0%;
     top: 145vh;
     position: absolute;
@@ -1781,36 +1787,35 @@ border-radius: 10px;
 .cdc3{
     width: 1100px;
     height: 80vh;
-    background-color: #5488e91a;
+    background-color: #5488e900;
     left: 3%;
     top: 150vh;
     position: absolute;
     border-radius: 20px;
 }
 .cdc3sqr p{
-    width: 970px;
+    width: 1100px;
     height: 50vh;
-    left: 3%;
+    left: 0%;
     top: 60vh;
     position: absolute;
     border-radius: 20px;
     border: 1px solid black;
-    border-color: #5488e988;
+    border-color: #5488e900;
     text-align: center;
     padding-top: 20px;
-    font-size: 200%;
-    padding: 30px;
+    font-size: 240%;
 }
 .cdc3sqr2 p{
     width: 700px;
     height: 20px;
-    left: 10%;
-    top: 101vh;
+    left: 3%;
+    top: 107vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
     text-align: left;
-    font-size: 400%;
+    font-size: 500%;
     padding-right: 10px;
     font-weight: bolder;
     color: #4ea0e4;
@@ -1818,8 +1823,8 @@ border-radius: 10px;
 .cdc3sqr3 p{
     width: 300px;
     height: 70px;
-    left: 65%;
-    top: 100vh;
+    left: 70%;
+    top: 105vh;
     position: absolute;
     border-radius: 30px;
     text-align: center;
@@ -1864,7 +1869,7 @@ border-radius: 10px;
 }
 .cdc33{
     width: 1175px;
-    height: 100vh;
+    height: 1100px;
     left: 0%;
     top: 145vh;
     position: absolute;
@@ -1887,36 +1892,35 @@ border-radius: 10px;
 .cdc4{
     width: 1100px;
     height: 80vh;
-    background-color: #5488e91a;
+    background-color: #5488e900;
     left: 3%;
     top: 150vh;
     position: absolute;
     border-radius: 20px;
 }
 .cdc4sqr p{
-    width: 970px;
+    width: 1100px;
     height: 50vh;
-    left: 3%;
+    left: 0%;
     top: 60vh;
     position: absolute;
     border-radius: 20px;
     border: 1px solid black;
-    border-color: #5488e988;
+    border-color: #5488e900;
     text-align: center;
     padding-top: 20px;
-    font-size: 200%;
-    padding: 30px;
+    font-size: 240%;
 }
 .cdc4sqr2 p{
     width: 700px;
     height: 20px;
-    left: 10%;
-    top: 101vh;
+    left: 3%;
+    top: 107vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
     text-align: left;
-    font-size: 400%;
+    font-size: 500%;
     padding-right: 10px;
     font-weight: bolder;
     color: #4ea0e4;
@@ -1924,8 +1928,8 @@ border-radius: 10px;
 .cdc4sqr3 p{
     width: 300px;
     height: 70px;
-    left: 65%;
-    top: 100vh;
+    left: 70%;
+    top: 105vh;
     position: absolute;
     border-radius: 30px;
     text-align: center;
@@ -1970,7 +1974,7 @@ border-radius: 10px;
 }
 .cdc44{
     width: 1175px;
-    height: 100vh;
+    height: 1100px;
     left: 0%;
     top: 145vh;
     position: absolute;
@@ -1992,36 +1996,35 @@ border-radius: 10px;
 .cdc5{
     width: 1100px;
     height: 80vh;
-    background-color: #5488e91a;
+    background-color: #5488e900;
     left: 3%;
     top: 150vh;
     position: absolute;
     border-radius: 20px;
 }
 .cdc5sqr p{
-    width: 970px;
+    width: 1100px;
     height: 50vh;
-    left: 3%;
+    left: 0%;
     top: 60vh;
     position: absolute;
     border-radius: 20px;
     border: 1px solid black;
-    border-color: #5488e988;
+    border-color: #5488e900;
     text-align: center;
     padding-top: 20px;
-    font-size: 200%;
-    padding: 30px;
+    font-size: 240%;
 }
 .cdc5sqr2 p{
     width: 700px;
     height: 20px;
-    left: 10%;
-    top: 101vh;
+    left: 3%;
+    top: 107vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
     text-align: left;
-    font-size: 400%;
+    font-size: 500%;
     padding-right: 10px;
     font-weight: bolder;
     color: #4ea0e4;
@@ -2029,8 +2032,8 @@ border-radius: 10px;
     .cdc5sqr3 p{
         width: 300px;
         height: 70px;
-        left: 65%;
-        top: 100vh;
+        left: 70%;
+        top: 105vh;
         position: absolute;
         border-radius: 30px;
         text-align: center;
@@ -2075,7 +2078,7 @@ border-radius: 10px;
     }
 .cdc55{
     width: 1175px;
-    height: 100vh;
+    height: 1100px;
     left: 0%;
     top: 145vh;
     position: absolute;
@@ -2097,36 +2100,35 @@ border-radius: 10px;
 .cdc6{
     width: 1100px;
     height: 80vh;
-    background-color: #5488e91a;
+    background-color: #5488e900;
     left: 3%;
     top: 150vh;
     position: absolute;
     border-radius: 20px;
 }
 .cdc6sqr p{
-    width: 970px;
+    width: 1100px;
     height: 50vh;
-    left: 3%;
+    left: 0%;
     top: 60vh;
     position: absolute;
     border-radius: 20px;
     border: 1px solid black;
-    border-color: #5488e988;
+    border-color: #5488e900;
     text-align: center;
     padding-top: 20px;
-    font-size: 200%;
-    padding: 30px;
+    font-size: 240%;
 }
 .cdc6sqr2 p{
     width: 700px;
     height: 20px;
-    left: 10%;
-    top: 101vh;
+    left: 3%;
+    top: 107vh;
     position: absolute;
     border-radius: 20px;
     padding-left: 10px;
     text-align: left;
-    font-size: 400%;
+    font-size: 500%;
     padding-right: 10px;
     font-weight: bolder;
     color: #4ea0e4;
@@ -2134,8 +2136,8 @@ border-radius: 10px;
 .cdc6sqr3 p{
     width: 300px;
     height: 70px;
-    left: 65%;
-    top: 100vh;
+    left: 70%;
+    top: 105vh;
     position: absolute;
     border-radius: 30px;
     text-align: center;
@@ -2184,7 +2186,7 @@ border-radius: 10px;
 
 .cdc66{
     width: 1175px;
-    height: 100vh;
+    height: 1100px;
     left: 0%;
     top: 145vh;
     position: absolute;
@@ -2347,7 +2349,73 @@ border-radius: 10px;
 .socials a{
    background-color: #3591ce00;
 }
-
+.footer h6{
+    margin-top: 100px;  
+}
+.footer h6 a{
+    text-decoration: none;
+    color: #000;
+}
+.footer{ 
+    width: 1303px; 
+    height: 1200px;
+    background-color: #0045bb89;
+    margin-top: 200px;
+    border-radius: 40px;
+}
+.footer img{
+    width: 400px;
+    height: 250px;
+    align-items: center;
+    border-radius: 40px;
+    margin-left: 150px;
+    opacity: 0.8;
+    margin-top: 100px;
+}
+#globe{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-left: -200px;
+    margin-top: 80px;
+}
+.footer h4{
+    padding-top: 90px;
+    color: #fff;
+    font-weight: lighter;
+    margin-left: 120px;
+}
+#h41{
+    padding-top: 90px;
+    color: #fff;
+    font-weight: lighter;
+    margin-left: 0px;
+}
+.footer h5{
+    margin-top: 150px;
+}
+.footer h5 a{
+    text-decoration: none;
+}
+.jmd{
+    align-items: center;
+}
+.jmd img{
+    width: 130px;
+    height: 50px;
+    position: absolute;
+    margin-left: -200px;
+    margin-top: 85px;
+}
+.jmd h3{
+    width: 500px;
+    position: absolute;
+    margin-left: 540px;
+    margin-top: 80px;
+    font-size: 80%;
+    color: #fff;
+    font-weight: lighter;
+}
 
 } 
 

@@ -119,7 +119,7 @@
 
 
                 <div id="contactnav">
-                    <p>TEL: 1876-284-2009<br><br>Email: Linsteaddacackee<br>@gmail.com <br><br>Or visit us in Linstead</p>
+                    <p>Telephone: <br>1876-284-2009<br><br>Email: <br>Linsteaddacackee<br>@gmail.com <br><br>Or visit us at: <br> 1A Rodney Hall, Linstead St.Catherine</p>
                 </div>
         
                 <script>
@@ -204,14 +204,23 @@ about.onclick = function() {
                     <img src="images/community.png" alt="Image 2">
                     <img src="images/partners.png" alt="Image 3">
                      <!-----scroll timer-->
-                    <script>
-                         const horizontalscroll = document.querySelector('.horizontal-scroll');
-
+                     <script>
+                        const horizontalscroll = document.querySelector('.horizontal-scroll');
+                        const scrollWidth = horizontalscroll.scrollWidth;
+                    
                         function scrollHorizontally() {
-                         horizontalscroll.scrollLeft += horizontalscroll.offsetWidth;
+                            horizontalscroll.scrollLeft += horizontalscroll.offsetWidth;
+                    
+                            // Check if reached the end of the scrollable area
+                            if (horizontalscroll.scrollLeft + horizontalscroll.offsetWidth >= scrollWidth) {
+                                // Reset the scroll position to the beginning
+                                horizontalscroll.scrollLeft = 0;
+                            }
                         }
-                            setInterval(scrollHorizontally, 20000);
+                    
+                        setInterval(scrollHorizontally, 3000);
                     </script>
+                    
                 </div>
             </div>
 
@@ -225,6 +234,13 @@ about.onclick = function() {
                         <li><a href="https://newperson10.github.io/LDAC-Home/"> WELCOME</a></li>
                         <li><a href="https://newperson10.github.io/LDAC/"> HOME</a></li>
                         <li><a href="https://newperson10.github.io/LDAC-Learn-More/"> LEARN MORE</a></li>
+                        <li><a href="//newperson10.github.io/LDAC-Register/">SIGN UP</a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+
                     </ul>
                 </nav>
             </div>
@@ -261,7 +277,7 @@ about.onclick = function() {
             <div class="line2"> <p>  vel ante scelerisque, id interdum enim congue. Fusce pellentesque, diam vel tempus lacinia, elit arcu suscipit ex, nec tempus urna turpis ac nunc. Integer vel luctus nibh. Quisque id nulla vel nulla gravida elementum.  </p></div>
 
             <div class="title-text">
-                <p> FEATURES </p>
+                <p>  </p>
                 <h1> Why Join us </h1>
                 </div>
            
@@ -623,14 +639,16 @@ about.onclick = function() {
 
 
         </div>
-        <div class = "randomtext"><p><b><h2><br>Sharing knowledge and resources. </h2><br> </b><h5> Just for you.</h5></p></div>
-
+        <div class = "randomtext">
+            <img src="images/knowledge-transfer.png">
+            <p><b><h2><br>Sharing knowledge and resources. </h2><br> </b><h5> Just for you.</h5></p></div>
+        
         </section>
 
             <!------events-->
    
         <section id= "event">
-         <div class="upEvents"><p><b>Upcoming Events</b> <br><h6>Swipe across to view more</h6></p></div>
+         <div class="upEvents"><p><b>Upcoming Events</b> <br><h6>Swipe left or right to view more</h6></p></div>
 
         <div class = "Events-box">
             <div class="Events-scroll">
@@ -650,19 +668,28 @@ about.onclick = function() {
                 <button class="Jerk2"><h3>OUR POWERFUL<br> CDC's <br>In CONCERT</h3></button>
                 <div class="date3"> December 09, 2023</div>
             <script>
-                const Eventhorizontalscroll = document.querySelector('.Events-scroll');
-        
-            function scrollHorizontally() {
-             Eventhorizontalscroll.scrollLeft += Eventhorizontalscroll.offsetWidth;
-            }
-        
-            setInterval(scrollHorizontally, 10000);
+    const Eventhorizontalscroll = document.querySelector('.Events-scroll');
+    const scrollWidth = Eventhorizontalscroll.scrollWidth;
+
+    function scrollHorizontally() {
+        Eventhorizontalscroll.scrollLeft += Eventhorizontalscroll.offsetWidth;
+
+        // Check if reached the end of the scrollable area
+        if (Eventhorizontalscroll.scrollLeft + Eventhorizontalscroll.offsetWidth >= scrollWidth) {
+            // Reset the scroll position to the beginning
+            Eventhorizontalscroll.scrollLeft = 0;
+        }
+    }
+
+    setInterval(scrollHorizontally, 3000);
+
             </script>               
               </div>
             </div>
 
             </section>
             <section id="motivation">
+                <img src="images/friend.png">
                 <p><h2>Unity in diversity. <br>Engaging and inspiring.</h2><br><br> <h5> Implemented for you, by you.</h5></p>
             </section>
 
@@ -886,12 +913,21 @@ else{
                 </div>
 
                 <div class="socials"> 
-                    <h5> STAY IN THE LOOP?</h5>
+                    <h5> STAY IN THE LOOP?<br><br><h6>click below</h6></h5>
                     <button> <a href="https://www.facebook.com/linsteaddac"> <img src="images/facebook-app-symbol.png"> </a> </button>
                     <button> <a href="https://instagram.com/linsteaddac?igshid=MzRlODBiNWFlZA=="> <img src="images/instagram.png"> </a> </button>
                     <button> <img id="shareButton" src="images/share.png"> </button>
                     <h4 id="backtotop" onclick="scrollToTop1();"><br><br>Back to top <br><br></h4>
-                    <b><h6><br><br><br><br><br>Powered by Ricardo Harrison<br><br></h6></b>
+                    <div class="footer">
+                        <img id="globe" src="images/globe.png">
+                        <h4>English </h4>
+                        <h4 id="h41">1A Rodney Hall, Linstead St. Catherine </h4>
+                        <img src="images/photo-output (9).PNG">
+                        <h5><a href="#">Sign Up?</a></h5>
+                        <div class="jmd"><img src="images/jmd.png"> <h3> Jamaica </h3> </div>
+                        <b><h6><br><br><a href="#">Powered by Ricardo Harrison</a><br><br></h6></b>
+                    </div>
+                    
                     <script>
                     function scrollToTop1() {
                             window.scrollTo({
