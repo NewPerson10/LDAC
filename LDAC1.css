@@ -2363,10 +2363,12 @@ border-radius: 10px;
 }
 .footer{ 
     width: 1303px; 
-    height: 1200px;
-    background-color: #0045bb6e;
+    height: 1300px;
+    background-color: #0045bb00;
     margin-top: 150px;
-    border-radius: 40px;
+    border-radius: 50px;
+    border: 1px solid black;
+    border-color: #0045bba5;
 }
 .footer img{
     width: 350px;
@@ -2386,13 +2388,13 @@ border-radius: 10px;
 }
 .footer h4{
     padding-top: 90px;
-    color: #fff;
+    color: #000000;
     font-weight: bold;
     margin-left: 120px;
 }
 #h41{
     padding-top: 90px;
-    color: #fff;
+    color: #000000;
     font-weight: bold;
     margin-left: 0px;
 }
@@ -2418,7 +2420,7 @@ border-radius: 10px;
     margin-left: 500px;
     margin-top: 80px;
     font-size: 80%;
-    color: #fff;
+    color: #000000;
     font-weight: bold;
 }
 } 
