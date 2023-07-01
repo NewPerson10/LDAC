@@ -2390,16 +2390,14 @@ border-radius: 10px;
     margin-top: 100px;
     border: 1px solid black;
 }
-#footerimg{
-    padding: 30px;
-    border-color: #0045bb78;
-}
+
 #globe{
     position: absolute;
     width: 100px;
     height: 100px;
     margin-left: -200px;
     margin-top: 80px;
+    border: none;
 }
 .footer h4{
     padding-top: 90px;
@@ -2429,6 +2427,7 @@ border-radius: 10px;
     position: absolute;
     margin-left: -170px;
     margin-top: 85px; 
+    border: none;
 }
 .jmd h3{
     width: 500px;

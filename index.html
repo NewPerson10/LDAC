@@ -648,7 +648,7 @@ about.onclick = function() {
             <!------events-->
    
         <section id= "event">
-         <div class="upEvents"><p><b>Upcoming Events</b> <br><h6>Swipe left or right to view more</h6></p></div>
+         <div class="upEvents"><p><b>Upcoming Events</b> <br><h6><img src="images/swipe.png">Swipe left or right to view more</h6></p></div>
 
         <div class = "Events-box">
             <div class="Events-scroll">
@@ -669,13 +669,13 @@ about.onclick = function() {
                 <div class="date3"> December 09, 2023</div>
             <script>
     const Eventhorizontalscroll = document.querySelector('.Events-scroll');
-    const scrollWidth = Eventhorizontalscroll.scrollWidth;
+    const scrollWidth1 = Eventhorizontalscroll.scrollWidth1;
 
     function scrollHorizontally() {
         Eventhorizontalscroll.scrollLeft += Eventhorizontalscroll.offsetWidth;
 
         // Check if reached the end of the scrollable area
-        if (Eventhorizontalscroll.scrollLeft + Eventhorizontalscroll.offsetWidth >= scrollWidth) {
+        if (Eventhorizontalscroll.scrollLeft + Eventhorizontalscroll.offsetWidth >= scrollWidth1) {
             // Reset the scroll position to the beginning
             Eventhorizontalscroll.scrollLeft = 0;
         }
@@ -921,10 +921,10 @@ else{
                         <img id="globe" src="images/globe.png">
                         <h4>English </h4>
                         <h4 id="h41">1A Rodney Hall, Linstead St. Catherine </h4>
-                        <img src="images/photo-output (9).PNG">
+                        <img id="footerimg" src="images/photo-output (9).PNG">
                         <h5><a href="#">Sign Up?</a></h5>
                         <div class="jmd"><img src="images/jmd.png"> <h3> Jamaica </h3> </div>
-                        <b><h6><br><br><br><br><a href="#">Powered by Ricardo Harrison (click to no more)</a><br><br><br><br></h6></b>
+                        <b><h6><br><br><br>Powered by Ricardo Harrison <a href="#"> (click to no more)</a><br><br><br><br><br></h6></b>
                     </div>
                     <h4 id="backtotop" onclick="scrollToTop1();"><img src="images/arrowhead-up.png"><br>Back to Top <br><br><br></h4>
                     
