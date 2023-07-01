@@ -669,13 +669,13 @@ about.onclick = function() {
                 <div class="date3"> December 09, 2023</div>
             <script>
     const Eventhorizontalscroll = document.querySelector('.Events-scroll');
-    const scrollWidth1 = Eventhorizontalscroll.scrollWidth1;
+    const scrollWidth = Eventhorizontalscroll.scrollWidth;
 
     function scrollHorizontally() {
         Eventhorizontalscroll.scrollLeft += Eventhorizontalscroll.offsetWidth;
 
         // Check if reached the end of the scrollable area
-        if (Eventhorizontalscroll.scrollLeft + Eventhorizontalscroll.offsetWidth >= scrollWidth1) {
+        if (Eventhorizontalscroll.scrollLeft + Eventhorizontalscroll.offsetWidth >= scrollWidth) {
             // Reset the scroll position to the beginning
             Eventhorizontalscroll.scrollLeft = 0;
         }
@@ -924,7 +924,7 @@ else{
                         <img id="footerimg" src="images/photo-output (9).PNG">
                         <h5><a href="#">Sign Up?</a></h5>
                         <div class="jmd"><img src="images/jmd.png"> <h3> Jamaica </h3> </div>
-                        <b><h6><br><br><br>Powered by Ricardo Harrison <a href="#"> (click to no more)</a><br><br><br><br><br></h6></b>
+                        <b><h6><br><br><br>Powered by Ricardo Harrison <a href="#"> (click to know more)</a><br><br><br><br><br></h6></b>
                     </div>
                     <h4 id="backtotop" onclick="scrollToTop1();"><img src="images/arrowhead-up.png"><br>Back to Top <br><br><br></h4>
                     

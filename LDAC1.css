@@ -2403,13 +2403,13 @@ border-radius: 10px;
     padding-top: 90px;
     font-weight: bold;
     margin-left: 120px;
-    color: #0045bb;
+    color: #0045bbcd;
 }
 #h41{
     padding-top: 90px;
     font-weight: bold;
     margin-left: 0px;
-    color: #0045bb;
+    color: #0045bbcd;
 }
 
 .footer h5{
@@ -2439,7 +2439,7 @@ border-radius: 10px;
     font-weight: bold;
 }
 .footer h6 a{
-    color: #0045bb;
+    color: #0045bbcd;
 }
 } 
 
