@@ -669,13 +669,13 @@ about.onclick = function() {
                 <div class="date3"> December 09, 2023</div>
             <script>
     const Eventhorizontalscroll = document.querySelector('.Events-scroll');
-    const scrollWidth = Eventhorizontalscroll.scrollWidth;
+    const scrollWidth1 = Eventhorizontalscroll.scrollWidth;
 
     function scrollHorizontally() {
         Eventhorizontalscroll.scrollLeft += Eventhorizontalscroll.offsetWidth;
 
         // Check if reached the end of the scrollable area
-        if (Eventhorizontalscroll.scrollLeft + Eventhorizontalscroll.offsetWidth >= scrollWidth) {
+        if (Eventhorizontalscroll.scrollLeft + Eventhorizontalscroll.offsetWidth >= scrollWidth1) {
             // Reset the scroll position to the beginning
             Eventhorizontalscroll.scrollLeft = 0;
         }

@@ -1157,7 +1157,7 @@ border-radius: 10px;
     position: absolute;
     overflow-x: auto;
     white-space: nowrap;
-    padding-top: 45vh;
+    padding-top: 450px;
     margin-left: 0px;
 }
 .Events-scroll::-webkit-scrollbar {
@@ -1199,7 +1199,7 @@ border-radius: 10px;
 .upEvents {
     position: absolute;
     font-size: 600%;
-    margin-top: 10vh;
+    margin-top: 100px;
     padding: 30px;
     left: 80px;
     z-index: 2;
