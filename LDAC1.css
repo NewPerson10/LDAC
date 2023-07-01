@@ -1127,7 +1127,7 @@ border-radius: 10px;
 .randomtext{
     width: 1363px;
     height: 10vh;
-    padding-top: 500px;
+    padding-top: 300px;
     text-align: center;
     font-size: 350%;
 }
@@ -1140,7 +1140,7 @@ border-radius: 10px;
     height: 2000px;
     position: absolute;
     padding-top: 0vh;
-    margin-top: 1400px;
+    margin-top: 1300px;
 }
 
 .Events-box{
@@ -1540,7 +1540,7 @@ border-radius: 10px;
 }
 
 #motivation{
-    margin-top: 4000px;
+    margin-top: 3500px;
     width: 1363px;
     text-align: center;
 }
@@ -1557,7 +1557,7 @@ border-radius: 10px;
     position: absolute;
     width: 1323px;
     height: 9100px;
-    margin-top: 500px;
+    margin-top: 400px;
     z-index: -1;
     background-color: #357ace2c;
     border-radius: 100px;
@@ -2421,7 +2421,6 @@ border-radius: 10px;
     color: #fff;
     font-weight: bold;
 }
-
 } 
 
 
