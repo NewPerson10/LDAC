@@ -2403,15 +2403,17 @@ border-radius: 10px;
 }
 .footer h4{
     padding-top: 90px;
-    color: #000000;
     font-weight: bold;
     margin-left: 120px;
+    color: #0045bb;
+}
 }
 #h41{
     padding-top: 90px;
-    color: #000000;
     font-weight: bold;
     margin-left: 0px;
+    color: #0045bb;
+}
 }
 .footer h5{
     margin-top: 150px;
@@ -2438,7 +2440,9 @@ border-radius: 10px;
     color: #000000;
     font-weight: bold;
 }
-
+.footer h6 a{
+    color: #0045bb;
+}
 } 
 
 
