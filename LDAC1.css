@@ -1210,8 +1210,15 @@ border-radius: 10px;
     color: #000;
 }
 .upEvents h6{
-    padding-top: 30px;
-    font-size: 40%
+    font-size: 40%;
+    padding-top: 70px;
+    margin-left: 130px;
+}
+.upEvents img{
+    width: 100px;
+    margin-left: -150px;
+    position: absolute;
+    margin-top: -40px;
 }
 .Events-scroll::-webkit-scrollbar{
     display: none; /* For Chrome, Safari, and Opera */
@@ -1229,6 +1236,7 @@ border-radius: 10px;
     background-color: #4ea0e41d; 
     width: 550px;
 }
+
 .Jerk {
     position: absolute;
     top: 25%;
