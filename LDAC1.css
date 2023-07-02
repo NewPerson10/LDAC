@@ -1239,7 +1239,7 @@ border-radius: 10px;
 
 .Jerk {
     position: absolute;
-    top: 25%;
+    top: 35%;
     left: 0px;
     color: rgb(255, 255, 255);
     font-weight: bolder;
@@ -1255,8 +1255,8 @@ border-radius: 10px;
   }
   .date1{
     position: absolute;
-    top: 50%;
-    color: rgba(255, 255, 255, 0.647);
+    top: 60%;
+    color: rgba(255, 255, 255, 0.775);
     font-weight: lighter;
     font-size: 350%;
     border-radius: 20px;
@@ -1283,7 +1283,7 @@ border-radius: 10px;
     position: absolute;
     width: 400px;
     height: 130px;
-    top: 65%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px 20px;
@@ -1306,7 +1306,7 @@ border-radius: 10px;
     position: absolute;
     width: 400px;
     height: 130px;
-    top: 60%;
+    top: 75%;
     left: 150%;
     transform: translate(-50%, -50%);
     padding: 10px 20px;
@@ -1331,7 +1331,7 @@ border-radius: 10px;
 
   .Jerk1 {
     position: absolute;
-    top: 20%;
+    top: 35%;
     left: 1300px;
     color: rgb(255, 255, 255);
     font-weight: bolder;
@@ -1347,9 +1347,9 @@ border-radius: 10px;
   }
   .date2{
     position: absolute;
-    top: 45%;
+    top: 60%;
     left: 1263px;
-    color: rgba(255, 255, 255, 0.647);
+    color: rgba(255, 255, 255, 0.838);
     font-weight: lighter;
     font-size: 350%;
     border-radius: 20px;
@@ -1369,7 +1369,7 @@ border-radius: 10px;
     position: absolute;
     width: 400px;
     height: 130px;
-    top: 65%;
+    top: 75%;
     left: 250%;
     transform: translate(-50%, -50%);
     padding: 10px 20px;
@@ -1393,7 +1393,7 @@ border-radius: 10px;
   }
   .Jerk2 {
     position: absolute;
-    top: 25%;
+    top: 35%;
     left: 2800px;
     color: rgb(255, 255, 255);
     font-weight: bolder;
@@ -1409,7 +1409,7 @@ border-radius: 10px;
   }
   .date3{
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 2790px;
     color: rgba(255, 255, 255, 0.647);
     font-weight: lighter;
@@ -1776,7 +1776,7 @@ border-radius: 10px;
 .cdc22{
     width: 1175px;
     height: 1100px;
-    left: -10px;
+    left: 0px;
     top: 1450px;
     position: absolute;
     border-radius: 50px;
@@ -1985,7 +1985,7 @@ border-radius: 10px;
 .cdc44{
     width: 1175px;
     height: 1100px;
-    left: -10px;
+    left: 0px;
     top: 1450px;
     position: absolute;
     border-radius: 50px;
@@ -2197,7 +2197,7 @@ border-radius: 10px;
 .cdc66{
     width: 1175px;
     height: 1100px;
-    left: -10px;
+    left: -5px;
     top: 1450px;
     position: absolute;
     border-radius: 50px;
@@ -2389,7 +2389,9 @@ border-radius: 10px;
     opacity: 0.9;
     margin-top: 100px;
     border: 1px solid black;
+    border-color: #0045bb00;
 }
+
 
 #globe{
     position: absolute;
