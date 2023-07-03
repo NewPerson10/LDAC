@@ -813,7 +813,7 @@ nav ul li a{
     top: 0;
     left: 0;
     width: 1363px;
-    height: 24700px;
+    height: 2930%;
     background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency and color as needed */
     z-index: 5; /* Ensure the darkened background is on top */
 }
@@ -2357,7 +2357,7 @@ border-radius: 10px;
     margin-left: 80px;
 }
 .socials h1{
-    margin-left: -50px;
+    margin-left: -80px;
     font-size: 300%;
 }
 .socials button{
