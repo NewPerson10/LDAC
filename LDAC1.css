@@ -591,6 +591,7 @@ background-color: #0045bb;
     font-size: 400%;
     padding-left: 60px;
     color:#4ea0e4;
+    font-weight: bolder;
 }
 .features-desc{
 
@@ -725,6 +726,7 @@ nav ul li a{
     font-size: 400%;
     padding-left: 60px;
     color:#4ea0e4;
+    font-weight: bolder;
 }
 .features-desc1{
 
@@ -811,7 +813,7 @@ nav ul li a{
     top: 0;
     left: 0;
     width: 1363px;
-    height: 2000vh;
+    height: 24700px;
     background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency and color as needed */
     z-index: 5; /* Ensure the darkened background is on top */
 }
@@ -1060,6 +1062,7 @@ nav ul li a{
     font-size: 400%;
     padding-left: 60px;
     color:#4ea0e4;
+    font-weight: bolder;
 }
 .features-desc2{
 
@@ -1103,6 +1106,7 @@ nav ul li a{
     font-size: 400%;
     padding-left: 60px;
     color:#4ea0e4;
+    font-weight: bolder;
 }
 .features-desc3{
 
