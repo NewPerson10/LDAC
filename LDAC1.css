@@ -398,6 +398,7 @@ background-color: #0045bb;
     z-index: 8;
     cursor: pointer;
     border-radius: 20px;
+    transition: 0.5s;
 }
 #menubtn img{
     width: 120px;
@@ -410,20 +411,20 @@ background-color: #0045bb;
     position: fixed;
     right: -450px;
     top: 0;
-    background: #357acee7;
+    background: #357ace;
     z-index: 7;
     transition: 0.5s;
     text-align: left;
     border-radius: 10px;
 }
 #SideNav nav ul{
-    padding-top: 460px;
+    padding-top: 260px;
 }
 
 #SideNav nav ul li{
     
     list-style: none;
-    margin: 200px 50px;
+    margin: 150px 50px;
     
 }
 #SideNav nav ul li a{
@@ -1573,7 +1574,7 @@ border-radius: 10px;
   .calendar-grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-gap: 50px;
+    grid-gap: 20px;
     margin-top: 100px;
     padding: 30px;
     border: 1px solid black;

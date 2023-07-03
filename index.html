@@ -38,7 +38,9 @@
                             { url: "https://newperson10.github.io/RedwoodCDC/", text: "Redwood CDC" },
                             { url: "https://newperson10.github.io/Jerk-Festival/", text: "Jerk Festival" },
                             { url: "https://newperson10.github.io/LDAC-Concert/", text: "Our Powerful CDC's in Concert" },
-                            { url: "https://newperson10.github.io/Awards-Ceremony/", text: "Awards Ceremony"}
+                            { url: "https://newperson10.github.io/Awards-Ceremony/", text: "Awards Ceremony"},
+                            { url: "https://newperson10.github.io/LDAC-Events/", text: "View All Events"},
+                            { url: "https://newperson10.github.io/LDAC-Community-Tourism/", text: "Community Tourism"}
                         ];
                 
                         function showSuggestions() {
@@ -236,7 +238,7 @@ about.onclick = function() {
                         <li><a href="https://newperson10.github.io/LDAC-Learn-More/"> LEARN MORE</a></li>
                         <li><a href="//newperson10.github.io/LDAC-Register/">SIGN UP</a></li>
                         <li><a href="https://newperson10.github.io/LDAC-Events/">EVENTS</a></li>
-                        <li><a href=""></a></li>
+                        <li><a href="https://newperson10.github.io/LDAC-Community-Tourism/">COMMUNITY TOURISM</a></li>
                         <li><a href=""></a></li>
                         <li><a href=""></a></li>
                         <li><a href=""></a></li>
@@ -252,17 +254,24 @@ about.onclick = function() {
                 SideNav.style.right ="-450px";
             menubtn.onclick = function(){
                 if(SideNav.style.right =="-450px"){
+                    menubtn.style.top="100px"
+                    menubtn.style.right="125px"
                     SideNav.style.right = "0";
                     menu.src="images/x1.PNG";
                 }
                 else{
+                    menubtn.style.top="45vh"
                     SideNav.style.right = "-450px";
+                    menubtn.style.right="60px"
                     menu.src="images/photo-output (3).PNG";
+                    
                 }
             }
             document.addEventListener("click", function(event) {
   if (event.target !== SideNav && !menubtn.contains(event.target)) {
+    menubtn.style.top="45vh"
     SideNav.style.right = "-450px";
+    menubtn.style.right="60px"
     menu.src="images/photo-output (3).PNG";
   }
 });
@@ -754,7 +763,7 @@ about.onclick = function() {
                   </div>
 
                   <button class="viewevents">
-                    <a href="https://newperson10.github.io/LDAC/"> VIEW ALL EVENTS <img src="images/right.png"></a>
+                    <a href="https://newperson10.github.io/LDAC-Events/"> VIEW ALL EVENTS <img src="images/right.png"></a>
                   </button>
 
               </div>
@@ -834,7 +843,9 @@ about.onclick = function() {
                                 { url: "https://newperson10.github.io/RedwoodCDC/", text: "Redwood CDC" },
                                 { url: "https://newperson10.github.io/Jerk-Festival/", text: "Jerk Festival" },
                                 { url: "https://newperson10.github.io/LDAC-Concert/", text: "Our Powerful CDC's in Concert" },
-                                { url: "https://newperson10.github.io/Awards-Ceremony/", text: "Awards Ceremony"}
+                                { url: "https://newperson10.github.io/Awards-Ceremony/", text: "Awards Ceremony"},
+                                { url: "https://newperson10.github.io/LDAC-Events/", text: "View All Events"},
+                                { url: "https://newperson10.github.io/LDAC-Community-Tourism/", text: "Community Tourism"}
                             ];
                     
                             function showSuggestions1() {
@@ -943,6 +954,8 @@ about.onclick = function() {
                 <button class="navigation-button" onclick="window.location.href = 'https://newperson10.github.io/Jerk-Festival/';">Linstead Ackee and Jerk Festival</button>
                 <button id="aboutscrollToTopButton" class="navigation-button" onclick="scrollToTop();"> About </button>
                 <button class="navigation-button" onclick="window.location.href = 'https://newperson10.github.io/LDAC-Concert/';">Our Powerful CDC's in Concert</button>
+                <button class="navigation-button" onclick="window.location.href = 'https://newperson10.github.io/LDAC-Events/';">All Events</button>
+                <button class="navigation-button" onclick="window.location.href = 'https://newperson10.github.io/LDAC-Community-Tourism/';">Community Tourism</button>
                 <script>
                     // Function to scroll to the top of the page
                     var contact2=document.getElementById("contact")
